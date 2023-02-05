@@ -84,7 +84,7 @@ main p {
 }
 
 .hello {
-    min-width: 300px;
+    min-width: 320pxpx;
     max-width: 1000px;
     margin: auto;
     margin-top: 20px;
@@ -104,15 +104,14 @@ main p {
 }
 img {
     max-width: 100%;
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .proposito {
-    min-width: 300px;
+    min-width: 320px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
@@ -133,7 +132,7 @@ blockquote {
 }
 
 .tecnologias {
-    min-width: 300px;
+    min-width: 320px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
@@ -145,7 +144,7 @@ blockquote {
 }
 
 .jornada {
-    min-width: 300px;
+    min-width: 320px;
     max-width: 1000px;
     margin: auto;
     padding: 30px;
