@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
+/*FONTES*/
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*PSEUDO-CLASSE*/
 
 :root {
     --cor-primaria: #000000;
@@ -12,16 +16,22 @@
     --fonte-destaque: 'Inter';
 }
 
+ /*CONFIGURAÇÕES GLOBAIS*/
+
 * {
     margin: 0px;
     padding: 0px;
 }
+
+/*BODY (CORPO)*/
 
 body {
     background-color: var(--cor-primaria);
     font-family: var(--fonte-padrao);
     margin: 10px;
 }
+
+/*HEADER (CABEÇALHO)*/
 
 header {
     background-color: var(--cor-primaria);
@@ -35,6 +45,8 @@ header > h1 {
     text-align: center;
     padding: 10px;
 }
+
+/*NAV (MENU)*/
 
 nav {
     padding: 10px;
@@ -54,6 +66,8 @@ nav > a:hover {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
 }
+
+/*MAIN (CONTEÚDO PRINCIPAL)*/
 
 main h2 {
     font-family: var(--fonte-destaque);
@@ -140,3 +154,5 @@ blockquote {
     color: var(--cor-terciaria);
     text-align: center;    
 }
+
+/*FOOTER (RODAPÉ)*/
