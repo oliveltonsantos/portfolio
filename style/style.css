@@ -28,7 +28,6 @@
 body {
     background-color: var(--cor-primaria);
     font-family: var(--fonte-padrao);
-    margin: 10px;
 }
 
 /*HEADER (CABEÇALHO)*/
@@ -42,6 +41,7 @@ header {
 header > h1 {
     color: var(--cor-quartenaria);
     font-family: var(--fonte-destaque);
+    font-size: 2em;
     text-align: center;
     padding: 10px;
 }
@@ -69,26 +69,32 @@ nav > a:hover {
 
 /*MAIN (CONTEÚDO PRINCIPAL)*/
 
-main h2 {
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
-    font-weight: 700;
-    padding: 20px;
+.inicial {
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-main p {
+.inicial h2 {
     font-family: var(--fonte-destaque);
-    font-size: 1em;
-    line-height: 2em;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+.inicial p {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    line-height: 1.5em;
     text-align: justify;
 }
 
 .hello {
-    min-width: 320pxpx;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -99,9 +105,15 @@ main p {
     color: var(--cor-quartenaria);
     text-align: center;
 }
+
 .hello > p {
     text-align: center;
 }
+
+strong {
+    color: var(--cor-quartenaria);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -111,47 +123,163 @@ img {
 }
 
 .proposito {
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1000px;
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
-    text-align: center;
 }
 
 blockquote {
-    margin: 10px;
+    font-style: italic;
     text-align: center;
     font-family: var(--fonte-destaque);
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--cor-quartenaria);
 }
 
 .tecnologias {
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1000px;
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
-    text-align: center;
+}
+
+.linguagens {
+    display: flex;
+    justify-content: center;
+}
+
+.projetos {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 20px auto 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
 }
 
 .jornada {
-    min-width: 320px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 20px auto 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);  
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER (RODAPÉ)*/
+
+footer {
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+footer > p > a {
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: var(--cor-quartenaria);
+    text-decoration: underline;
+}
+
+ /*PARTE SOBRE*/
+
+ /*MAIN (CONTEÚDO PRINCIPAL)*/
+
+ .sobre {
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sobre h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre p {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+ .jornada2 {
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    margin: 20px auto 20px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
-    text-align: center;    
 }
 
-/*FOOTER (RODAPÉ)*/
+.porque {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin: 20px auto 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+}
+
+.porque > ul {
+    font-family: var(--fonte-destaque);
+    line-height: 2em;
+    list-style-type: '\1F449\00A0\00A0';
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+ul > li > a {
+    color: var(--cor-quartenaria);
+    text-decoration: none;
+}
+
+ul > li > a:hover {
+        color: var(--cor-terciaria);
+        text-decoration: underline;
+}
+
+.aprender {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin: 20px auto 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+}
+
+.cursoemvideo {
+    display: flex;
+    justify-content: center;
+}

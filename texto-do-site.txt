@@ -1,6 +1,10 @@
+===============
+Páginal inicial
+===============
+
 <🖖 Hello!>
 
-Fiquei à vontade para me chamar de Oli.
+Fique à vontade para me chamar de Oli.
 
 Sou uma pessoa curiosa e um desenvolvedor front-end em evolução constante.
 
@@ -23,5 +27,35 @@ E se você ficou curioso(a) para saber mais, deixo o link abaixo.
 📱 Acompanhe a minha jornada
 
 Stay hungry, stay foolish. • Steve Jobs
+
+=============
+Página sobre
+=============
+
+⛵ Uma nova jornada se inicia!
+
+Criei um personagem fictício chamado 01i, ele é um pirata digital cujo objetivo é navegar os 7 mares da Matrix.
+
+O 01i tem um diário onde ele registra os seus pensamentos e aprendizados nesta incrível jornada digital.
+
+❓ Por que começar algo novo?
+
+Não consigo ter exatidão do motivo principal, penso que foram uma série de vivências que me trouxeram até aqui. Alguns exemplos:
+
+Li a biografia do Steve Jobs e a minha mente explodiu com toda a história sobre a criação do Macintosh, a fundação da Apple, o iPhone e outras coisas.
+
+Cursei publicidade e propaganda e durante o curso comecei a gostar de coisas relacionadas a design (em especial o digital), então eu sempre gostava de ficar observando o design de sites e aplicativos.
+
+Comecei a aprender inglês sozinho a 3 anos atrás e me apaixonei sobre o processo de aprender idiomas. Utilizei algumas aplicações como o Anki e uma extensão chamada Language Reactor para otimizar os meus estudos, daí me veio a vontade de querer criar minhas próprias soluções na área da educação (não apenas idiomas).
+
+💻 Como estou aprendendo HTML e CSS?
+
+Estou fazendo um curso gratuito do Curso em Vídeo (site/canal do YouTube), as aulas são lecionadas pelo professor Guanabara que já de antemão posso dizer que tem uma didática inigualável.
+
+Deixo abaixo os links caso tenha interesse:
+
+Site: https://www.cursoemvideo.com
+Canal: https://www.youtube.com/@CursoemVideo
+Curso de HTML e CSS: https://www.cursoemvideo.com/curso/html5-css3-modulo1
 
 
