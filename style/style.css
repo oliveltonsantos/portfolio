@@ -264,8 +264,8 @@ ul > li > a {
 }
 
 ul > li > a:hover {
-        color: var(--cor-terciaria);
-        text-decoration: underline;
+    color: var(--cor-terciaria);
+    text-decoration: underline;
 }
 
 .aprender {
