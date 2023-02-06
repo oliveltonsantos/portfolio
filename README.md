@@ -1,10 +1,10 @@
 # <🖖 Hello!>
 
- ## 💡 Ideia do projeto
+ ## 💡 Ideia do projeto:
 
 O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOxtx/) criado pela [Raquel Maia](https://github.com/raquel-maia) no Instagram dela, o desafio era criar um portfólio nos apresentando, mostrando projetos e deixando nossos contatos.
 
-## ⚒️ Tecnologias utilizadas
+## ⚒️ Tecnologias utilizadas:
 
 - HTML5
 - CSS3
@@ -23,11 +23,11 @@ Uma ideia que tive foi de implementar um menu fixo no site, dessa maneira evita-
 
 Também quis colocar o meu currículo no site, dessa maneira o usuário pode visualizar o PDF sem sair do site ou então basta dar um clique no botão “Download”. Confira um texto explicando como fazer [aqui](https://pdf.wondershare.com.br/pdf-knowledge/insert-pdf-in-html.html).
 
-## 💻 Resultado
+## 💻 Resultado:
 
 Acesse o site pronto neste link [aqui](https://oliveltonsantos.github.io/portfolio/)!
 
-## 📱 Acompanhe a minha jornada
+## 📱 Acompanhe a minha jornada:
 
 - [GitHub](https://github.com/oliveltonsantos)
 - [LinkedIn](https://www.linkedin.com/in/olivelton-santos)
