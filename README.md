@@ -1,10 +1,10 @@
 # <🖖 Hello!>
 
- ## 💡 Ideia do projeto
+ ## 💡 Ideia do projeto:
 
-O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOxtx/) criado pela [Raquel Maia](https://github.com/raquel-maia) no Instagram dela, o desafio era criar um portfólio nos apresentando, mostrando projetos e deixando nossos contatos.
+O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOxtx/) criado pela [Raquel Maia](https://github.com/raquel-maia) no Instagram dela, o desafio foi criar um portfólio para mostrar projetos e deixar nossos contatos disponíveis.
 
-## ⚒️ Tecnologias utilizadas
+## ⚒️ Tecnologias utilizadas:
 
 - HTML5
 - CSS3
@@ -17,17 +17,17 @@ Aprendi um pouco sobre flex-box observando o [código CSS da Raquel Maia](https:
 
 - Menu fixo
 
-Uma ideia que tive foi de implementar um menu fixo no site, dessa maneira evita-se que usuário tenha que rolar a página até o topo para acessar o menu. Leia o texto clicando [aqui](https://www.w3schools.com/howto/howto_css_sticky_element.asp).
+Uma ideia que tive foi de implementar um menu fixo no site, dessa maneira evita-se que usuário tenha que rolar a página até o topo para acessar o menu. Para saber mais leia o texto clicando [aqui](https://www.w3schools.com/howto/howto_css_sticky_element.asp).
 
 - Inserir PDF no HTML
 
 Também quis colocar o meu currículo no site, dessa maneira o usuário pode visualizar o PDF sem sair do site ou então basta dar um clique no botão “Download”. Confira um texto explicando como fazer [aqui](https://pdf.wondershare.com.br/pdf-knowledge/insert-pdf-in-html.html).
 
-## 💻 Resultado
+## 💻 Resultado:
 
 Acesse o site pronto neste link [aqui](https://oliveltonsantos.github.io/portfolio/)!
 
-## 📱 Acompanhe a minha jornada
+## 📱 Acompanhe a minha jornada:
 
 - [GitHub](https://github.com/oliveltonsantos)
 - [LinkedIn](https://www.linkedin.com/in/olivelton-santos)
