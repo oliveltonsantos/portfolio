@@ -2,7 +2,7 @@
 
  ## 💡 Ideia do projeto:
 
-O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOxtx/) criado pela [Raquel Maia](https://github.com/raquel-maia) no Instagram dela, o desafio era criar um portfólio nos apresentando, mostrando projetos e deixando nossos contatos.
+O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOxtx/) criado pela [Raquel Maia](https://github.com/raquel-maia) no Instagram dela, o desafio foi criar um portfólio para mostrar projetos e deixar nossos contatos disponíveis.
 
 ## ⚒️ Tecnologias utilizadas:
 
@@ -17,7 +17,7 @@ Aprendi um pouco sobre flex-box observando o [código CSS da Raquel Maia](https:
 
 - Menu fixo
 
-Uma ideia que tive foi de implementar um menu fixo no site, dessa maneira evita-se que usuário tenha que rolar a página até o topo para acessar o menu. Leia o texto clicando [aqui](https://www.w3schools.com/howto/howto_css_sticky_element.asp).
+Uma ideia que tive foi de implementar um menu fixo no site, dessa maneira evita-se que usuário tenha que rolar a página até o topo para acessar o menu. Para saber mais leia o texto clicando [aqui](https://www.w3schools.com/howto/howto_css_sticky_element.asp).
 
 - Inserir PDF no HTML
 
