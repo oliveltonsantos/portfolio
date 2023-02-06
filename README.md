@@ -29,7 +29,8 @@ Acesse o site pronto neste link [aqui](https://oliveltonsantos.github.io/portfol
 
 ## 📱 Acompanhe a minha jornada
 
-[LinkedIn](https://www.linkedin.com/in/olivelton-santos)
-[Instagram](https://www.instagram.com/navegandoemc0d1gos)
-[YouTube](https://www.youtube.com/@navegandoemc0d1gos)
+- [GitHub](https://github.com/oliveltonsantos)
+- [LinkedIn](https://www.linkedin.com/in/olivelton-santos)
+- [Instagram](https://www.instagram.com/navegandoemc0d1gos)
+- [YouTube](https://www.youtube.com/@navegandoemc0d1gos)
 
