@@ -33,7 +33,7 @@ body {
 /*HEADER (CABEÇALHO)*/
 
 header {
-    width: 100%;
+    width: auto;
     background-color: var(--cor-primaria);
     min-height: 50px;
     padding: 5px
@@ -56,10 +56,10 @@ header > h1 {
 }
 
 nav {
-    width: 100%;
+    width: auto;
     padding: 15px;
     text-align: center;
-    background-color: red;
+    background-color: var(--cor-primaria);
 }
 
 nav > a {
@@ -79,9 +79,8 @@ nav > a:hover {
 /*MAIN (CONTEÚDO PRINCIPAL)*/
 
 .inicial {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .inicial h2 {
@@ -102,7 +101,7 @@ nav > a:hover {
 .hello {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -133,7 +132,7 @@ img {
 .proposito {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -152,7 +151,7 @@ blockquote {
 .tecnologias {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -167,7 +166,7 @@ blockquote {
 .projetos0 {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -206,7 +205,7 @@ blockquote {
 .jornada {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -229,6 +228,7 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 footer > p > a {
@@ -246,9 +246,8 @@ footer > p > a:hover {
  /*MAIN (CONTEÚDO PRINCIPAL)*/
 
  .sobre {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sobre h2 {
@@ -269,7 +268,7 @@ footer > p > a:hover {
  .jornada2 {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -279,7 +278,7 @@ footer > p > a:hover {
 .porque {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -307,7 +306,7 @@ ul > li > a:hover {
 .aprender {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
@@ -325,9 +324,8 @@ ul > li > a:hover {
  /*MAIN (CONTEÚDO PRINCIPAL)*/
 
  .curriculo1 {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .curriculo1 h2 {
@@ -349,7 +347,7 @@ ul > li > a:hover {
 .curriculo2 {
     min-width: 300px;
     max-width: 1000px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 0px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
