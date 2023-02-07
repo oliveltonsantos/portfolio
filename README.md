@@ -1,4 +1,4 @@
-# <🖖 Hello!>
+<h1 align="center"> <🖖 Hello!> </h1>
 
  ## 💡 Ideia do projeto:
 
