@@ -38,17 +38,17 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 <details>
 <summary>Flex-box</summary>
 <p>Aprendi um pouco sobre flex-box observando o <a href="https://github.com/raquel-maia/portfolio" target="_blank" rel="external">código CSS da Raquel Maia</a> e testando em algumas partes específicas do meu código, além disso, li algumas explicações neste site chamado [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp).</p>
-<details>
+</details>
 
 <details>
 <summary>Menu fixo</summary>
 <p>Uma ideia que tive foi de implementar um menu fixo no site, dessa maneira evita-se que usuário tenha que rolar a página até o topo para acessar o menu. Para saber mais leia o texto clicando <a href="https://www.w3schools.com/howto/howto_css_sticky_element.asp" target="_blank" rel="external">aqui</a>.</p>
-<details>
+</details>
 
 <details>
 <summary>Inserir PDF no HTML</summary>
 <p>Também quis colocar o meu currículo no site, dessa maneira o usuário pode visualizar o PDF sem sair do site ou então basta dar um clique no botão “Download”. Confira um texto explicando como fazer <a href="https://pdf.wondershare.com.br/pdf-knowledge/insert-pdf-in-html.html" target="_blank" rel="external">aqui</a>.</p>
-<details>
+</details>
 
 <details>
 <summary>Rodapé fixo</summary>
@@ -64,7 +64,7 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 ![Depois](imagens/rodape-depois.png)
 
 <p>Para conseguir este resultado você pode ler este texto <a href="https://www.w3schools.com/howto/howto_css_fixed_footer.asp" target="_blank" rel="external">aqui</a> ou olhar o meu código.</p>
-<details>
+</details>
 
 ## 💻 Resultado:
 
