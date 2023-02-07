@@ -30,8 +30,9 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 
 <details>
 <summary>Fonte</summary>
-<p>A fonte utilizada chama-se Inter, conheci essa fonte através de uma distribuição linux chamada [Elementary OS](https://elementary.io/). Pessoalmente acho a fonte bem simples, tem boa legibilidade e diferentes pesos (todas essas características se conectam com o meu site).
-Você pode encontrar a fonte clicando [aqui](https://fonts.google.com/specimen/Inter).</p>
+<p>A fonte utilizada chama-se Inter, conheci essa fonte através de uma distribuição linux chamada <a href="https://elementary.io/" target="_blank" rel="external">Elementary OS</a>. Pessoalmente acho a fonte bem simples, tem boa legibilidade e diferentes pesos (todas essas características se conectam com o meu site).</p>
+
+<p>Você pode encontrar a fonte clicando  <a href="https://fonts.google.com/specimen/Inter" target="_blank" rel="external">aqui</a>.</p>
 </details>
 
 ## 📝 Coisas novas que aprendi:
