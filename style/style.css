@@ -57,6 +57,7 @@ header > h1 {
 
 nav {
     width: auto;
+    margin-top: 0px;
     padding: 15px;
     text-align: center;
     background-color: var(--cor-primaria);
