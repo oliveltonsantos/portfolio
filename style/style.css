@@ -240,6 +240,13 @@ footer > p > a:hover {
     text-decoration: underline;
 }
 
+.fixo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ }
+
  /*PARTE SOBRE*/
 
  /*MAIN (CONTEÚDO PRINCIPAL)*/
@@ -380,7 +387,7 @@ ul > li > a:hover {
 
 .pdf {
     width: 100%;
-    height: 1000px;
+    height: 500px;
     border-radius: 10px;
     border: 2px solid var(--cor-terciaria);
     margin-top: 30px;
