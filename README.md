@@ -37,7 +37,7 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 
 <details>
 <summary>Flex-box</summary>
-<p>Aprendi um pouco sobre flex-box observando o <a href="https://github.com/raquel-maia/portfolio" target="_blank" rel="external">código CSS da Raquel Maia</a> e testando em algumas partes específicas do meu código, além disso, li algumas explicações neste site chamado [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp).</p>
+<p>Aprendi um pouco sobre flex-box observando o <a href="https://github.com/raquel-maia/portfolio" target="_blank" rel="external">código CSS da Raquel Maia</a> e testando em algumas partes específicas do meu código, além disso, li algumas explicações neste site chamado <a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank" rel="external">W3Schools</a>.</p>
 </details>
 
 <details>
