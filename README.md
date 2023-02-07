@@ -23,6 +23,16 @@ Uma ideia que tive foi de implementar um menu fixo no site, dessa maneira evita-
 
 Também quis colocar o meu currículo no site, dessa maneira o usuário pode visualizar o PDF sem sair do site ou então basta dar um clique no botão “Download”. Confira um texto explicando como fazer [aqui](https://pdf.wondershare.com.br/pdf-knowledge/insert-pdf-in-html.html).
 
+- Rodapé Fixo
+
+Quando fui criar a página "Currículo" tive um problema com o rodapé, ele não ficava posicionado na parte inferior mas sim próximo a caixa onde está inserido o currículo. Veja abaixo o antes e depois.
+
+![Antes](imagens/rodape-antes.png)
+
+![Depois](imagens/rodape-depois.png)
+
+Para conseguir este resultado você pode ler este texto [aqui](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) ou olhar o meu código.
+
 ## 💻 Resultado:
 
 Acesse o site pronto neste link [aqui](https://oliveltonsantos.github.io/portfolio/)!
