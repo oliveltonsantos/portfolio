@@ -70,6 +70,10 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 
 Acesse o site pronto neste link [aqui](https://oliveltonsantos.github.io/portfolio/)!
 
+## 💬 Sugestões:
+
+Fico aberto a sugestões de melhoria e ideias, caso você tenha alguma basta me enviar uma mensagem no [Instagram](https://www.instagram.com/navegandoemc0d1gos) ou [LinkedIn](https://www.linkedin.com/in/olivelton-santos).
+
 ## 📱 Acompanhe a minha jornada:
 
 - [GitHub](https://github.com/oliveltonsantos)
