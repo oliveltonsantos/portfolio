@@ -76,6 +76,7 @@ nav > a {
 nav > a:hover {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
+    text-decoration: none;
 }
 
 /*MAIN (CONTEÚDO PRINCIPAL)*/
@@ -301,16 +302,6 @@ footer > p > a:hover {
     margin-top: 10px;
 }
 
-ul > li > a {
-    color: var(--cor-quartenaria);
-    text-decoration: none;
-}
-
-ul > li > a:hover {
-    color: var(--cor-terciaria);
-    text-decoration: underline;
-}
-
 .aprender {
     min-width: 200px;
     max-width: 1000px;
@@ -325,6 +316,36 @@ ul > li > a:hover {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+ /*LINKS GERAIS*/
+ 
+.linksgerais > a {
+    color: var(--cor-quartenaria);
+    text-decoration: none;
+}
+
+.linksgerais > a:hover {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-secundaria);
+    text-decoration: underline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ /*LINKS DA LISTA NÃO ORDENADA*/
+
+ ul > li > a {
+    color: var(--cor-quartenaria);
+    text-decoration: none;
+}
+
+ul > li > a:hover {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-secundaria);
+    text-decoration: underline;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /*PARTE CURRICULO*/

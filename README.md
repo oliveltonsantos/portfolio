@@ -9,6 +9,31 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 - HTML5
 - CSS3
 
+## 🎨 Design 
+
+<details>
+<summary>Visual</summary>
+Decidi optar por um visual minimalista, o foco principal está no conteúdo, portanto para mim faz sentido buscar eliminar as distrações visuais que não sejam relevantes para o meu objetivo principal que é a informação.
+</details>
+
+<details>
+<summary>Cores</summary>
+Utilizei uma paleta com 4 cores, sendo 3 cores mais neutras e uma para destaque de elementos como textos, botões, links, etc.
+
+Cores utilizadas:
+
+cor-primaria: #000000;
+cor-secundaria: #1d1d1d;
+cor-terciaria: #ffffff;
+cor-quartenaria: #71ae3f; 
+</details>
+
+<details>
+<summary>Fonte</summary>
+A fonte utilizada chama-se Inter, conheci essa fonte através de uma distribuição linux chamada [Elementary OS](https://elementary.io/). Pessoalmente acho a fonte bem simples, tem boa legibilidade e diferentes pesos (todas essas características se conectam com o meu site).
+Você pode encontrar a fonte clicando [aqui](https://fonts.google.com/specimen/Inter)
+</details>
+
 ## 📝 Coisas novas que aprendi:
 
 - Flex-box
