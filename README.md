@@ -22,10 +22,10 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 
 <p>Cores utilizadas:</p>
 
-- cor-primaria: #000000;
-- cor-secundaria: #1d1d1d;
-- cor-terciaria: #ffffff;
-- cor-quartenaria: #71ae3f; 
+- cor-primaria: #000000 (preto)
+- cor-secundaria: #1d1d1d (cinza)
+- cor-terciaria: #ffffff (branco)
+- cor-quartenaria: #71ae3f (verde)
 </details>
 
 <details>
