@@ -52,11 +52,11 @@ Também quis colocar o meu currículo no site, dessa maneira o usuário pode vis
 
 Quando fui criar a página "Currículo" tive um problema com o rodapé, ele não ficava posicionado na parte inferior mas sim próximo a caixa onde está inserido o currículo. Veja abaixo o antes e depois.
 
-**Antes**
+**Antes:**
 
 ![Antes](imagens/rodape-antes.png)
 
-**Depois**
+**Depois:**
 
 ![Depois](imagens/rodape-depois.png)
 
