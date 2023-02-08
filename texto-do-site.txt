@@ -6,25 +6,39 @@ Páginal inicial
 
 Fique à vontade para me chamar de Oli.
 
-Sou uma pessoa curiosa e um desenvolvedor front-end em evolução constante.
+Sou uma pessoa curiosa 🤔 e um desenvolvedor front-end em evolução constante! 🧗
+
+---
 
 🎯 Meu propósito...
 
 é unir educação, design e programação para melhorar a vida das pessoas.
 
+---
+
 📝 Tecnologias que estudo
+
+HTML5: https://pt.wikipedia.org/wiki/HTML
+
+CSS3: https://pt.wikipedia.org/wiki/Cascading_Style_Sheets
 
 🛠️ Meus projetos
 
-Inglês com Pensadores
+Todos os meus projetos podem ser vistos no GitHub, deixo abaixo o link para você conferir as coisas legais que venho criando :)
 
-💡 Propósito: ajudar as pessoas a conquistarem uma vida extraordinária através do inglês!
+Link: https://github.com/oliveltonsantos
 
-Este é um projeto educacional que visa ensinar as pessoas a como aprender inglês sozinhas e disponibilizar material de estudo gratuitamente. Conforme for evoluindo minhas habilidades irei implementar melhorias na parte tecnológica do projeto.
-
-E se você ficou curioso(a) para saber mais, deixo o link abaixo.
+---
 
 📱 Acompanhe a minha jornada
+
+LinkedIn: https://www.linkedin.com/in/olivelton-santos
+
+Instagram: https://www.instagram.com/navegandoemc0d1gos
+
+YouTube: https://www.youtube.com/@navegandoemc0d1gos
+
+---
 
 Stay hungry, stay foolish. • Steve Jobs
 
@@ -38,6 +52,8 @@ Criei um personagem fictício chamado 01i, ele é um pirata digital cujo objetiv
 
 O 01i tem um diário onde ele registra os seus pensamentos e aprendizados nesta incrível jornada digital.
 
+---
+
 ❓ Por que começar algo novo?
 
 Não consigo ter exatidão do motivo principal, penso que foram uma série de vivências que me trouxeram até aqui. Alguns exemplos:
@@ -48,14 +64,26 @@ Cursei publicidade e propaganda e durante o curso comecei a gostar de coisas rel
 
 Comecei a aprender inglês sozinho a 3 anos atrás e me apaixonei sobre o processo de aprender idiomas. Utilizei algumas aplicações como o Anki e uma extensão chamada Language Reactor para otimizar os meus estudos, daí me veio a vontade de querer criar minhas próprias soluções na área da educação (não apenas idiomas).
 
+Links:
+
+Livro Steve Jobs: https://www.amazon.com.br/Steve-Jobs-Walter-Isaacson/dp/6555603321/
+
+Anki: https://apps.ankiweb.net/
+
+Language Reactor: https://www.languagereactor.com/
+
+---
+
 💻 Como estou aprendendo HTML e CSS?
 
 Estou fazendo um curso gratuito do Curso em Vídeo (site/canal do YouTube), as aulas são lecionadas pelo professor Guanabara que já de antemão posso dizer que tem uma didática inigualável.
 
 Deixo abaixo os links caso tenha interesse:
 
+Professor Guanabara: https://www.instagram.com/gustavoguanabara/
+
 Site: https://www.cursoemvideo.com
+
 Canal: https://www.youtube.com/@CursoemVideo
+
 Curso de HTML e CSS: https://www.cursoemvideo.com/curso/html5-css3-modulo1
-
-
