@@ -1,15 +1,17 @@
-<h1 align="center"> <🖖 Hello!> </h1>
-
- ## 💡 Ideia do projeto:
+### 💡 Ideia do projeto:
 
 O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOxtx/) criado pela [Raquel Maia](https://github.com/raquel-maia) no Instagram dela, o desafio foi criar um portfólio para mostrar projetos e deixar nossos contatos disponíveis.
 
-## 🛠 Tecnologias utilizadas:
+##
+
+### 🛠 Tecnologias utilizadas:
 
 - HTML5
 - CSS3
 
-## 🎨 Design 
+##
+
+### 🎨 Design 
 
 <details>
 <summary>Visual</summary>
@@ -33,7 +35,9 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 <p>A fonte utilizada chama-se <a href="https://fonts.google.com/specimen/Inter" target="_blank" rel="external">Inter</a>, conheci essa fonte através de uma distribuição linux chamada <a href="https://elementary.io/" target="_blank" rel="external">Elementary OS</a>. Pessoalmente acho a fonte bem simples, tem boa legibilidade e diferentes pesos (todas essas características se conectam com o meu site).</p>
 </details>
 
-## 📝 Coisas novas que aprendi:
+##
+
+### 📝 Coisas novas que aprendi:
 
 <details>
 <summary>Flex-box</summary>
@@ -66,15 +70,21 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 <p>Para conseguir este resultado você pode ler este texto <a href="https://www.w3schools.com/howto/howto_css_fixed_footer.asp" target="_blank" rel="external">aqui</a> ou olhar o meu código.</p>
 </details>
 
-## 💻 Resultado:
+##
+
+### 💻 Resultado:
 
 Acesse o site pronto neste link [aqui](https://oliveltonsantos.github.io/portfolio/)!
 
-## 💬 Sugestões:
+##
+
+### 💬 Sugestões:
 
 Fico aberto a sugestões de melhoria e ideias, caso você tenha alguma basta me enviar uma mensagem no [Instagram](https://www.instagram.com/navegandoemc0d1gos) ou [LinkedIn](https://www.linkedin.com/in/olivelton-santos).
 
-## 📱 Acompanhe a minha jornada:
+##
+
+### 📱 Acompanhe a minha jornada:
 
 [GitHub](https://github.com/oliveltonsantos) | [LinkedIn](https://www.linkedin.com/in/olivelton-santos) | [Instagram](https://www.instagram.com/navegandoemc0d1gos) | [YouTube](https://www.youtube.com/@navegandoemc0d1gos)
 
