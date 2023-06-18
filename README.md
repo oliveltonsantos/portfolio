@@ -6,8 +6,8 @@ O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOx
 
 ### 🛠 Tecnologias utilizadas:
 
-- HTML5
-- CSS3
+- HTML 5
+- CSS 3
 
 ##
 
