@@ -10,13 +10,13 @@
     --cor-primaria: #000000;
     --cor-secundaria: #1d1d1d;
     --cor-terciaria: #ffffff;
-    --cor-quartenaria: #71ae3f; 
+    --cor-quartenaria: #71ae3f;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Inter';
 }
 
- /*CONFIGURAÇÕES GLOBAIS*/
+/*CONFIGURAÇÕES GLOBAIS*/
 
 * {
     margin: 0px;
@@ -33,7 +33,8 @@ body {
 /*NAV (MENU)*/
 
 .sticky {
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
 }
@@ -47,7 +48,7 @@ nav {
     background-color: var(--cor-primaria);
 }
 
-nav > a {
+nav>a {
     font-weight: 500;
     color: var(--cor-terciaria);
     padding: 10px;
@@ -56,7 +57,7 @@ nav > a {
     transition-duration: 0.3s;
 }
 
-nav > a:hover {
+nav>a:hover {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
     text-decoration: none;
@@ -92,15 +93,27 @@ nav > a:hover {
     border-radius: 10px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
-.hello > h2 {
+.texto {
+    width: 550px;
+}
+
+.texto h2 {
     color: var(--cor-quartenaria);
-    text-align: center;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 20px;
+
 }
 
-.hello > p {
-    text-align: center;
+.texto p {
+    line-height: 30px;
 }
 
 strong {
@@ -111,7 +124,6 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: auto;
 }
 
 .proposito {
@@ -158,7 +170,7 @@ blockquote {
     color: var(--cor-terciaria);
 }
 
-.projetos0 > p {
+.projetos0>p {
     margin-bottom: 30px;
 }
 
@@ -210,9 +222,14 @@ blockquote {
     color: var(--cor-secundaria);
 
 }
+
 .projetos2 {
     color: var(--cor-terciaria);
     text-decoration: none;
+}
+
+.projeto3 {
+    margin-top: 30px;
 }
 
 .jornada {
@@ -222,7 +239,7 @@ blockquote {
     padding: 30px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);  
+    color: var(--cor-terciaria);
 }
 
 .redes {
@@ -244,12 +261,12 @@ footer {
     margin-top: 10px;
 }
 
-footer > p > a {
+footer>p>a {
     color: var(--cor-terciaria);
     text-decoration: none;
 }
 
-footer > p > a:hover {
+footer>p>a:hover {
     color: var(--cor-quartenaria);
     text-decoration: underline;
 }
@@ -259,13 +276,13 @@ footer > p > a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
- }
+}
 
- /*PARTE SOBRE*/
+/*PARTE SOBRE*/
 
- /*MAIN (CONTEÚDO PRINCIPAL)*/
+/*MAIN (CONTEÚDO PRINCIPAL)*/
 
- .sobre {
+.sobre {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -285,7 +302,7 @@ footer > p > a:hover {
     text-align: justify;
 }
 
- .jornada2 {
+.jornada2 {
     min-width: 200px;
     max-width: 1000px;
     margin: 10px auto 0px auto;
@@ -305,7 +322,7 @@ footer > p > a:hover {
     color: var(--cor-terciaria);
 }
 
-.porque > ul {
+.porque>ul {
     font-family: var(--fonte-destaque);
     line-height: 2em;
     list-style-type: '\1F449\00A0\00A0';
@@ -329,14 +346,18 @@ footer > p > a:hover {
     margin-top: 20px;
 }
 
- /*LINKS GERAIS*/
- 
-.linksgerais > a {
+.foto-avatar {
+    margin: auto;
+}
+
+/*LINKS GERAIS*/
+
+.linksgerais>a {
     color: var(--cor-quartenaria);
     text-decoration: none;
 }
 
-.linksgerais > a:hover {
+.linksgerais>a:hover {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
     text-decoration: underline;
@@ -344,14 +365,14 @@ footer > p > a:hover {
     border-radius: 5px;
 }
 
- /*LINKS DA LISTA NÃO ORDENADA*/
+/*LINKS DA LISTA NÃO ORDENADA*/
 
- ul > li > a {
+ul>li>a {
     color: var(--cor-quartenaria);
     text-decoration: none;
 }
 
-ul > li > a:hover {
+ul>li>a:hover {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
     text-decoration: underline;
@@ -361,9 +382,9 @@ ul > li > a:hover {
 
 /*PARTE CURRICULO*/
 
- /*MAIN (CONTEÚDO PRINCIPAL)*/
+/*MAIN (CONTEÚDO PRINCIPAL)*/
 
- .curriculo1 {
+.curriculo1 {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -425,4 +446,29 @@ ul > li > a:hover {
     border-radius: 10px;
     border: 2px solid var(--cor-terciaria);
     margin-top: 30px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+
+    .texto h2 {
+        text-align: center;
+    }
+
+    .texto p {
+        text-align: center;
+    }
+
+    .projeto3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .foto-perfil {
+        max-width: 60%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
 }
