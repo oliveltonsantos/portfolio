@@ -427,6 +427,7 @@ footer>p>a:hover {
 .linksgerais>a {
     color: var(--cor-quartenaria);
     text-decoration: none;
+    transition: all 300ms ease-in-out;
 }
 
 .linksgerais>a:hover {
@@ -434,7 +435,7 @@ footer>p>a:hover {
     color: var(--cor-secundaria);
     text-decoration: underline;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 /*LINKS DA LISTA NÃO ORDENADA*/
@@ -442,6 +443,7 @@ footer>p>a:hover {
 ul>li>a {
     color: var(--cor-quartenaria);
     text-decoration: none;
+    transition: all 300ms ease-in-out;
 }
 
 ul>li>a:hover {
@@ -449,7 +451,7 @@ ul>li>a:hover {
     color: var(--cor-secundaria);
     text-decoration: underline;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 /*PARTE CURRICULO*/
@@ -543,7 +545,7 @@ ul>li>a:hover {
     }
 
     .foto-perfil {
-        max-width: 60%;
+        max-width: 90%;
         height: auto;
         display: block;
         margin: auto;
