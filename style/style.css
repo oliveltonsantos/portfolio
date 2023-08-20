@@ -543,6 +543,14 @@ ul>li>a:hover {
 
 @media screen and (min-width: 200px) and (max-width: 1000px) {
 
+    .hello {
+        flex-direction: column-reverse;
+    }
+
+    .texto {
+        width: auto;
+    }
+
     .texto h2 {
         text-align: center;
     }
