@@ -157,9 +157,9 @@ blockquote {
 
 .linguagens {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
-
+    flex-wrap: wrap;
 }
 
 .linguagens a {
@@ -175,6 +175,15 @@ blockquote {
 
 .linguagens i {
     font-size: 1.5em;
+}
+
+.linguagens .icon-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--cor-quartenaria);
 }
 
 .projetos0 {
