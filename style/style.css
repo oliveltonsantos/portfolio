@@ -61,6 +61,7 @@ nav>a:hover {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
     text-decoration: none;
+    font-weight: 600;
 }
 
 /*MAIN (CONTEÚDO PRINCIPAL)*/
