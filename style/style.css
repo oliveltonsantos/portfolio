@@ -190,6 +190,10 @@ blockquote {
     color: var(--cor-quartenaria);
 }
 
+.linguagens .icon-text p {
+    font-size: 1.2em;
+}
+
 .projetos0 {
     min-width: 200px;
     max-width: 1000px;
