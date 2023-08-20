@@ -235,6 +235,7 @@ blockquote {
     border-radius: 20px;
     padding: 10px;
     background-color: var(--cor-primaria);
+    transition: all 300ms ease-in-out;
 }
 
 .projetos2:hover {
@@ -244,7 +245,6 @@ blockquote {
 }
 
 .projetos2:hover i {
-    background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
 }
 
