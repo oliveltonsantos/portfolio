@@ -175,6 +175,11 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 300ms ease-in-out;
+}
+
+.linguagens a:hover {
+    scale: 1.1;
 }
 
 .linguagens i {
