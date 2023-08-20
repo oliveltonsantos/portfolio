@@ -53,7 +53,7 @@ nav>a {
     color: var(--cor-terciaria);
     padding: 10px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
     transition-duration: 0.3s;
 }
 
@@ -90,7 +90,7 @@ nav>a:hover {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
     display: flex;
@@ -131,7 +131,7 @@ img {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
@@ -150,7 +150,7 @@ blockquote {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
@@ -158,6 +158,23 @@ blockquote {
 .linguagens {
     display: flex;
     justify-content: center;
+    gap: 20px;
+
+}
+
+.linguagens a {
+    width: 50px;
+    height: 50px;
+    background-color: #71ae3f;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linguagens i {
+    font-size: 1.5em;
 }
 
 .projetos0 {
@@ -165,7 +182,7 @@ blockquote {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
@@ -182,20 +199,19 @@ blockquote {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-
 }
 
 .card {
     width: 300px;
     height: 300px;
     background: var(--cor-primaria);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .card h3 {
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .card img {
@@ -205,22 +221,31 @@ blockquote {
 .projeto1 {
     margin: auto;
     text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+.projeto1:hover {
+    scale: 1.1;
 }
 
 .projetos2 {
     font-family: var(--fonte-destaque);
     width: 100px;
     border: 2px solid var(--cor-quartenaria);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     background-color: var(--cor-primaria);
 }
 
 .projetos2:hover {
     background-color: var(--cor-quartenaria);
-    font-weight: bold;
+    font-weight: 600;
     color: var(--cor-secundaria);
+}
 
+.projetos2:hover i {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-secundaria);
 }
 
 .projetos2 {
@@ -230,6 +255,11 @@ blockquote {
 
 .projeto3 {
     margin-top: 30px;
+    transition: all 300ms ease-in-out;
+}
+
+.projeto3 a>i {
+    color: white;
 }
 
 .jornada {
@@ -237,7 +267,7 @@ blockquote {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
@@ -245,6 +275,27 @@ blockquote {
 .redes {
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+.redes a {
+    width: 50px;
+    height: 50px;
+    background-color: #71ae3f;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+}
+
+.redes a:hover {
+    scale: 1.1;
+}
+
+.redes i {
+    font-size: 1.5em;
 }
 
 /*FOOTER (RODAPÉ)*/
@@ -307,7 +358,7 @@ footer>p>a:hover {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
@@ -317,7 +368,7 @@ footer>p>a:hover {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
@@ -335,7 +386,7 @@ footer>p>a:hover {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
@@ -343,7 +394,28 @@ footer>p>a:hover {
 .cursoemvideo {
     display: flex;
     justify-content: center;
+    gap: 20px;
     margin-top: 20px;
+}
+
+.cursoemvideo a {
+    width: 50px;
+    height: 50px;
+    background-color: #71ae3f;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+}
+
+.cursoemvideo a:hover {
+    scale: 1.1;
+}
+
+.cursoemvideo i {
+    font-size: 1.5em;
 }
 
 .foto-avatar {
@@ -410,7 +482,7 @@ ul>li>a:hover {
     max-width: 1000px;
     margin: 10px auto 0px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
@@ -418,13 +490,18 @@ ul>li>a:hover {
 .download1 {
     margin: auto;
     text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+.download1:hover {
+    scale: 1.1;
 }
 
 .download2 {
     font-family: var(--fonte-destaque);
     width: 100px;
     border: 2px solid var(--cor-quartenaria);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     background-color: var(--cor-primaria);
 }
@@ -443,7 +520,7 @@ ul>li>a:hover {
 .pdf {
     width: 100%;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid var(--cor-terciaria);
     margin-top: 30px;
 }
