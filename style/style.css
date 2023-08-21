@@ -565,7 +565,7 @@ ul>li>a:hover {
     }
 
     .foto-perfil {
-        max-width: 90%;
+        max-width: 50%;
         height: auto;
         display: block;
         margin: auto;
