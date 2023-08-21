@@ -543,7 +543,9 @@ ul>li>a:hover {
 
 @media screen and (min-width: 200px) and (max-width: 1000px) {
 
-   
+    .hello {
+        flex-direction: column-reverse;
+    }
 
     .texto {
         width: auto;
@@ -563,7 +565,8 @@ ul>li>a:hover {
     }
 
     .foto-perfil {
-        max-width: 100%;
+        width: 100%;
+        max-width: 250px;
         height: auto;
         display: block;
         margin-top: 10px;
