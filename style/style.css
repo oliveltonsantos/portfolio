@@ -55,6 +55,7 @@ nav>a {
     text-decoration: none;
     border-radius: 20px;
     transition: all 300ms ease-in-out;
+    font-weight: bold;
 }
 
 nav>a:hover {
