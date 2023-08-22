@@ -54,7 +54,7 @@ nav>a {
     padding: 10px;
     text-decoration: none;
     border-radius: 20px;
-    transition: all 300ms ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 nav>a:hover {
@@ -180,7 +180,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 300ms ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .linguagens a:hover {
@@ -248,7 +248,7 @@ blockquote {
 
 .projeto1 {
     text-align: center;
-    transition: all 300ms ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .projeto1:hover {
@@ -265,7 +265,7 @@ blockquote {
     color: var(--cor-terciaria);
     background-color: var(--cor-primaria);
     text-decoration: none;
-    transition: all 300ms ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .projeto1 a:hover {
@@ -275,6 +275,7 @@ blockquote {
 
 .projeto1:hover i {
     color: var(--cor-secundaria);
+    rotate: 180deg;
 }
 
 .jornada {
@@ -302,7 +303,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 300ms ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .redes a:hover {
@@ -422,7 +423,7 @@ footer>p>a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 300ms ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .cursoemvideo a:hover {
@@ -442,7 +443,7 @@ footer>p>a:hover {
 .linksgerais>a {
     color: var(--cor-quartenaria);
     text-decoration: none;
-    transition: all 300ms ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .linksgerais>a:hover {
@@ -458,7 +459,7 @@ footer>p>a:hover {
 ul>li>a {
     color: var(--cor-quartenaria);
     text-decoration: none;
-    transition: all 300ms ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 ul>li>a:hover {
@@ -469,78 +470,6 @@ ul>li>a:hover {
     border-radius: 20px;
 }
 
-/*PARTE CURRICULO*/
-
-/*MAIN (CONTEÚDO PRINCIPAL)*/
-
-.curriculo1 {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.curriculo1 h2 {
-    font-family: var(--fonte-destaque);
-    font-size: 1.5em;
-    font-weight: 700;
-    padding: 20px;
-    text-align: center;
-}
-
-.curriculo1 p {
-    font-family: var(--fonte-destaque);
-    font-size: 1.2em;
-    line-height: 1.5em;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.curriculo2 {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
-}
-
-.download1 {
-    margin: auto;
-    text-align: center;
-    transition: all 300ms ease-in-out;
-}
-
-.download1:hover {
-    scale: 1.1;
-}
-
-.download2 {
-    font-family: var(--fonte-destaque);
-    width: 100px;
-    border: 2px solid var(--cor-quartenaria);
-    border-radius: 20px;
-    padding: 10px;
-    background-color: var(--cor-primaria);
-}
-
-.download2:hover {
-    background-color: var(--cor-quartenaria);
-    font-weight: bold;
-    color: var(--cor-secundaria);
-}
-
-.download2 {
-    color: var(--cor-terciaria);
-    text-decoration: none;
-}
-
-.pdf {
-    width: 100%;
-    height: 500px;
-    border-radius: 20px;
-    border: 2px solid var(--cor-terciaria);
-    margin-top: 30px;
-}
 
 /*MEDIA QUERIES*/
 
