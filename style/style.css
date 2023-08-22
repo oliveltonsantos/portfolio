@@ -202,6 +202,7 @@ blockquote {
 
 .linguagens .icon-text p {
     font-size: 1.2em;
+    color: var(--cor-terciaria);
 }
 
 .projetos0 {
@@ -254,29 +255,26 @@ blockquote {
     scale: 1.1;
 }
 
-.projetos2 {
+.projeto1 a {
     font-family: var(--fonte-destaque);
+    font-weight: 500;
     width: 100px;
     border: 2px solid var(--cor-quartenaria);
     border-radius: 20px;
     padding: 10px;
+    color: var(--cor-terciaria);
     background-color: var(--cor-primaria);
+    text-decoration: none;
     transition: all 300ms ease-in-out;
 }
 
-.projetos2:hover {
+.projeto1 a:hover {
     background-color: var(--cor-quartenaria);
-    font-weight: 600;
     color: var(--cor-secundaria);
 }
 
-.projetos2:hover i {
+.projeto1:hover i {
     color: var(--cor-secundaria);
-}
-
-.projetos2 {
-    color: var(--cor-terciaria);
-    text-decoration: none;
 }
 
 .jornada {
