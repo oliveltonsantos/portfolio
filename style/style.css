@@ -65,6 +65,8 @@ nav>a:hover {
 
 /*MAIN (CONTEÚDO PRINCIPAL)*/
 
+/* QUEM SOU EU */
+
 .inicial {
     margin-left: 10px;
     margin-right: 10px;
@@ -135,6 +137,8 @@ img {
     display: block;
 }
 
+/* MEU PROPÓSITO */
+
 .proposito {
     min-width: 200px;
     max-width: 1000px;
@@ -153,6 +157,8 @@ blockquote {
     font-size: 1.2em;
     color: var(--cor-quartenaria);
 }
+
+/* LINGUAGENS DE PROGRAMAÇÃO */
 
 .tecnologias {
     min-width: 200px;
@@ -205,6 +211,8 @@ blockquote {
     color: var(--cor-terciaria);
 }
 
+/* PROJETOS CRIADOS */
+
 .projetos0 {
     min-width: 200px;
     max-width: 1000px;
@@ -246,16 +254,18 @@ blockquote {
     border-radius: 20px 20px 0px 0px;
 }
 
-.projeto1 {
+/* BOTÃO GERAL */
+
+.btn-geral {
     text-align: center;
     transition: all .5s ease-in-out;
 }
 
-.projeto1:hover {
+.btn-geral:hover {
     scale: 1.1;
 }
 
-.projeto1 a {
+.btn-geral a {
     font-family: var(--fonte-destaque);
     font-weight: 500;
     width: 100px;
@@ -268,15 +278,16 @@ blockquote {
     transition: all .5s ease-in-out;
 }
 
-.projeto1 a:hover {
+.btn-geral a:hover {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
 }
 
-.projeto1:hover i {
+.btn-geral:hover i {
     color: var(--cor-secundaria);
-    rotate: 180deg;
 }
+
+/* ACOMPANHE A MINHA JORNADA */
 
 .jornada {
     min-width: 200px;
@@ -440,67 +451,76 @@ footer>p>a:hover {
 
 /* BLOG */
 
-.blog-corpo {
+.blog-container {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 336px;
 }
 
-.blog-corpo h1, h2 {
-    font-family: var(--fonte-destaque);
-    font-size: 1.5em;
-    font-weight: 700;
-    padding: 20px;
+.blog-container h1 {
     text-align: center;
     color: var(--cor-terciaria);
-}
-
-.blog-corpo p {
-    font-family: var(--fonte-destaque);
-    font-size: 1.2em;
-    line-height: 1.5em;
-    text-align: justify;
+    margin: 20px 0px;
+    font-size: 1.5em;
 }
 
 .blog-cards {
-    min-width: 200px;
-    max-width: 1000px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
 .blog-card {
     background: var(--cor-secundaria);
-    width: 300px;
-    height: 400px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: normal;
 }
 
-.card-image {
+.blog-card h2 {
+    color: var(--cor-quartenaria);
+    padding: 0px 10px;
+}
+
+.blog-card p {
+    color: var(--cor-terciaria);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.blog-card img {
     width: 100%;
     display: block;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
 }
 
-.card-content h2 {
-    text-align: left;
-    color: var(--cor-quartenaria);
-    padding: 0 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
+/* BOTÃO BLOG */
 
-.card-content p {
-    text-align: left;
+.btn-blog {
+    font-family: var(--fonte-destaque);
+    font-weight: 500;
+    width: 100px;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;
+    background: var(--cor-primaria);
+    border: 2px solid var(--cor-quartenaria);
+    border-radius: 20px;
     color: var(--cor-terciaria);
-    padding: 0px 10px;
-    margin-bottom: 30px;
-    line-height: 1.5;
-    font-size: 1em;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: all .5s ease-in-out;
+    text-align: center;
+}
+
+.btn-blog:hover {
+    scale: 1.1;
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-secundaria);
 }
 
 /* ARTIGOS */
@@ -510,7 +530,8 @@ footer>p>a:hover {
     margin-right: 10px;
 }
 
-.artigo-corpo h1, h2 {
+.artigo-corpo h1,
+h2 {
     text-align: left;
     color: var(--cor-quartenaria);
     padding: 0 20px;
