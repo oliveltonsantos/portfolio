@@ -438,6 +438,70 @@ footer>p>a:hover {
     margin: auto;
 }
 
+/* BLOG */
+
+.blog-corpo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.blog-corpo h1, h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+    color: var(--cor-terciaria);
+}
+
+.blog-corpo p {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.cards {
+    min-width: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: var(--cor-secundaria);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+card-image {
+    width: 100%;
+    display: block;
+}
+
+.card-content h2 {
+    text-align: left;
+    color: var(--cor-quartenaria);
+    padding: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card-content p {
+    text-align: left;
+    color: var(--cor-terciaria);
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 1em;
+}
+z
 /*LINKS GERAIS*/
 
 .linksgerais>a {
