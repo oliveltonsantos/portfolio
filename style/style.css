@@ -119,6 +119,7 @@ ul li a:hover {
 
 body {
     background-color: var(--cor-primaria);
+    height:100%;
 }
 
 body h1,
@@ -371,9 +372,7 @@ blockquote {
 
 /* BLOG */
 
-.blog-container {
-    margin-bottom: 336px;
-}
+
 
 .blog-container h1 {
     font-size: 1.5em;
@@ -551,13 +550,6 @@ footer p a {
 footer p a:hover {
     color: var(--cor-quartenaria);
     text-decoration: underline;
-}
-
-.fixo {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 
