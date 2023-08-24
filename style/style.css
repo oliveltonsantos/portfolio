@@ -16,18 +16,125 @@
     --fonte-destaque: 'Inter';
 }
 
-/*CONFIGURAÇÕES GLOBAIS*/
+/*CONFIGURAÇÕES GERAIS */
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* Imagens em geral */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Main (conteúdo principal da página) */
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container das seções */
+
+.container-section {
+    min-width: 200px;
+    max-width: 1000px;
+    margin: 10px auto 0px auto;
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+}
+
+/* Botões */
+
+.btn-geral {
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+
+.btn-geral:hover {
+    scale: 1.1;
+}
+
+.btn-geral a {
+    font-family: var(--fonte-destaque);
+    font-weight: 500;
+
+    width: 100px;
+    padding: 10px;
+
+    border: 2px solid var(--cor-quartenaria);
+    border-radius: 20px;
+
+    color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
+
+    transition: all .5s ease-in-out;
+}
+
+.btn-geral a:hover {
+    text-decoration: none;
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-secundaria);
+}
+
+.btn-geral:hover i {
+    color: var(--cor-secundaria);
+}
+
+/* Links gerais */
+
+a {
+    color: var(--cor-quartenaria);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Links da lista não ordenada */
+
+ul li a {
+    color: var(--cor-quartenaria);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
 /*BODY (CORPO)*/
 
 body {
     background-color: var(--cor-primaria);
-    font-family: var(--fonte-padrao);
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor-quartenaria);
+}
+
+body p {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    color: var(--cor-terciaria);
 }
 
 /*NAV (MENU)*/
@@ -46,9 +153,10 @@ nav {
     padding: 15px;
     text-align: center;
     background-color: var(--cor-primaria);
+    font-family: var(--fonte-destaque);
 }
 
-nav>a {
+nav a {
     font-weight: 600;
     color: var(--cor-terciaria);
     padding: 10px;
@@ -57,44 +165,16 @@ nav>a {
     transition: all .5s ease-in-out;
 }
 
-nav>a:hover {
+nav a:hover {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
     text-decoration: none;
 }
 
-/*MAIN (CONTEÚDO PRINCIPAL)*/
 
 /* QUEM SOU EU */
 
-.inicial {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.inicial h2 {
-    font-family: var(--fonte-destaque);
-    font-size: 1.5em;
-    font-weight: 700;
-    padding: 20px;
-    text-align: center;
-}
-
-.inicial p {
-    font-family: var(--fonte-destaque);
-    font-size: 1.2em;
-    line-height: 1.5em;
-    text-align: justify;
-}
-
-.hello {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
+.quem-sou {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -107,7 +187,6 @@ nav>a:hover {
 }
 
 .texto h2 {
-    color: var(--cor-quartenaria);
     text-align: left;
     padding: 0;
     margin-bottom: 20px;
@@ -118,7 +197,7 @@ nav>a:hover {
 }
 
 .texto p {
-    line-height: 30px;
+    line-height: 1.5em;
 }
 
 strong {
@@ -131,44 +210,19 @@ strong {
     gap: 20px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
 /* MEU PROPÓSITO */
 
-.proposito {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
-}
-
 blockquote {
     font-style: italic;
-    text-align: center;
     font-family: var(--fonte-destaque);
     font-weight: 400;
     font-size: 1.2em;
-    color: var(--cor-quartenaria);
+    text-align: center;
 }
+
 
 /* LINGUAGENS DE PROGRAMAÇÃO */
-
-.tecnologias {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
-}
 
 .linguagens {
     display: flex;
@@ -207,29 +261,12 @@ blockquote {
 }
 
 .linguagens .icon-text p {
-    font-size: 1.2em;
     color: var(--cor-terciaria);
 }
 
-/* PROJETOS CRIADOS */
-
-.projetos0 {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
-}
-
-.projetos0>p {
-    margin-bottom: 30px;
-}
+/* MEUS PROJETOS */
 
 .container-card {
-    min-width: 200px;
-    max-width: 1000px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -254,50 +291,8 @@ blockquote {
     border-radius: 20px 20px 0px 0px;
 }
 
-/* BOTÃO GERAL */
-
-.btn-geral {
-    text-align: center;
-    transition: all .5s ease-in-out;
-}
-
-.btn-geral:hover {
-    scale: 1.1;
-}
-
-.btn-geral a {
-    font-family: var(--fonte-destaque);
-    font-weight: 500;
-    width: 100px;
-    border: 2px solid var(--cor-quartenaria);
-    border-radius: 20px;
-    padding: 10px;
-    color: var(--cor-terciaria);
-    background-color: var(--cor-primaria);
-    text-decoration: none;
-    transition: all .5s ease-in-out;
-}
-
-.btn-geral a:hover {
-    background-color: var(--cor-quartenaria);
-    color: var(--cor-secundaria);
-}
-
-.btn-geral:hover i {
-    color: var(--cor-secundaria);
-}
 
 /* ACOMPANHE A MINHA JORNADA */
-
-.jornada {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
-}
 
 .redes {
     display: flex;
@@ -325,97 +320,22 @@ blockquote {
     font-size: 1.5em;
 }
 
-/*FOOTER (RODAPÉ)*/
-
-footer {
-    font-family: var(--fonte-destaque);
-    font-weight: 400;
-    text-align: center;
-    background-color: var(--cor-secundaria);
-    padding: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-footer>p>a {
-    color: var(--cor-terciaria);
-    text-decoration: none;
-}
-
-footer>p>a:hover {
-    color: var(--cor-quartenaria);
-    text-decoration: underline;
-}
-
-.fixo {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
 
 /*PARTE SOBRE*/
 
-/*MAIN (CONTEÚDO PRINCIPAL)*/
-
-.sobre {
-    margin-left: 10px;
-    margin-right: 10px;
+.container-section p {
+    margin-bottom: 20px;
 }
 
-.sobre h2 {
-    font-family: var(--fonte-destaque);
-    font-size: 1.5em;
-    font-weight: 700;
-    padding: 20px;
-    text-align: center;
-}
-
-.sobre p {
+.container-section ul {
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
-    line-height: 1.5em;
-    text-align: justify;
-}
-
-.jornada2 {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
-}
-
-.porque {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
-}
-
-.porque>ul {
-    font-family: var(--fonte-destaque);
-    line-height: 2em;
     list-style-type: '\1F449\00A0\00A0';
     list-style-position: inside;
-    margin-top: 10px;
 }
 
-.aprender {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
+.container-section ul li {
+    margin-bottom: 15px;
 }
 
 .cursoemvideo {
@@ -452,41 +372,43 @@ footer>p>a:hover {
 /* BLOG */
 
 .blog-container {
-    margin-left: 10px;
-    margin-right: 10px;
     margin-bottom: 336px;
 }
 
 .blog-container h1 {
+    font-size: 1.5em;
     text-align: center;
     color: var(--cor-terciaria);
     margin: 20px 0px;
-    font-size: 1.5em;
+}
+
+.blog-container h1 span {
+    color: var(--cor-quartenaria);
 }
 
 .blog-cards {
-    margin: 0 auto;
     max-width: 1000px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
 .blog-card {
-    background: var(--cor-secundaria);
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-self: normal;
+    background: var(--cor-secundaria);
+    border-radius: 20px;
 }
 
 .blog-card h2 {
-    color: var(--cor-quartenaria);
+    text-align: left;
     padding: 0px 10px;
 }
 
 .blog-card p {
-    color: var(--cor-terciaria);
+    font-size: 1em;
     padding: 5px 10px;
     margin-bottom: 10px;
 }
@@ -500,54 +422,97 @@ footer>p>a:hover {
 /* BOTÃO BLOG */
 
 .btn-blog {
+
     font-family: var(--fonte-destaque);
     font-weight: 500;
-    width: 100px;
+    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    align-self: center;
-    background: var(--cor-primaria);
-    border: 2px solid var(--cor-quartenaria);
-    border-radius: 20px;
-    color: var(--cor-terciaria);
+
+    width: 100px;
     margin-top: auto;
     margin-bottom: 10px;
     padding: 10px;
+
+    display: inline-block;
+    align-self: center;
+
+    background: var(--cor-primaria);
+    color: var(--cor-terciaria);
+
+    border: 2px solid var(--cor-quartenaria);
+    border-radius: 20px;
+
     transition: all .5s ease-in-out;
-    text-align: center;
+
 }
 
 .btn-blog:hover {
+    text-decoration: none;
     scale: 1.1;
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
 }
 
-/* ARTIGOS */
+/* ARTIGOS DO BLOG */
 
-.artigo-corpo {
-    margin-left: 10px;
-    margin-right: 10px;
+article {
+    min-width: 200px;
+    max-width: 1000px;
+    margin: 10px auto 0px auto;
+    border-radius: 20px;
+    background-color: var(--cor-secundaria);
+
 }
 
-.artigo-corpo h1,
-h2 {
+article h1 {
     text-align: left;
-    color: var(--cor-quartenaria);
-    padding: 0 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.artigo-corpo p {
-    font-family: var(--fonte-destaque);
-    font-size: 1.2em;
+article h2 {
+    text-align: left;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article h3 {
+    text-align: left;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article h4 {
+    text-align: left;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article h5 {
+    text-align: left;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article h6 {
+    text-align: left;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article p {
     line-height: 1.5em;
     text-align: left;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
-.artigo-image {
+.artigo-capa {
     display: block;
     width: 1000px;
     height: 400px;
@@ -556,45 +521,43 @@ h2 {
     object-fit: cover;
 }
 
-article {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
+article img {
+    display: block;
+    width: 80%;
     border-radius: 20px;
+    margin: 10px auto 10px auto;
+}
+
+
+/*FOOTER (RODAPÉ)*/
+
+footer {
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    text-align: center;
     background-color: var(--cor-secundaria);
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+footer p a {
     color: var(--cor-terciaria);
-}
-
-/*LINKS GERAIS*/
-
-.linksgerais>a {
-    color: var(--cor-quartenaria);
     text-decoration: none;
-    transition: all .5s ease-in-out;
 }
 
-.linksgerais>a:hover {
-    background-color: var(--cor-quartenaria);
-    color: var(--cor-secundaria);
-    text-decoration: underline;
-    padding: 5px;
-    border-radius: 20px;
-}
-
-/*LINKS DA LISTA NÃO ORDENADA*/
-
-ul>li>a {
+footer p a:hover {
     color: var(--cor-quartenaria);
-    text-decoration: none;
-    transition: all .5s ease-in-out;
+    text-decoration: underline;
 }
 
-ul>li>a:hover {
-    background-color: var(--cor-quartenaria);
-    color: var(--cor-secundaria);
-    text-decoration: underline;
-    padding: 5px;
-    border-radius: 20px;
+.fixo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 
@@ -602,7 +565,7 @@ ul>li>a:hover {
 
 @media screen and (min-width: 200px) and (max-width: 1000px) {
 
-    .hello {
+    .quem-sou {
         flex-direction: column-reverse;
     }
 
@@ -633,7 +596,7 @@ ul>li>a:hover {
         margin-top: 10px;
     }
 
-    .artigo-image {
+    .artigo-capa {
         height: 300px;
     }
 
