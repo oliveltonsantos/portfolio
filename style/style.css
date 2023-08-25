@@ -198,6 +198,10 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
+.texto .paragrafos p:first-child {
+    margin-bottom: 0;
+}
+
 .texto p {
     line-height: 1.5em;
 }
@@ -405,6 +409,7 @@ blockquote {
 }
 
 .blog-card h2 {
+    font-size: 1.2em;
     text-align: left;
     padding: 0px 10px;
     margin: 10px 0px;
@@ -575,10 +580,11 @@ footer {
     text-align: center;
     background-color: var(--cor-secundaria);
     padding: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
     margin-top: 10px;
+}
+
+footer p {
+    margin-bottom: 0;
 }
 
 footer p a {
