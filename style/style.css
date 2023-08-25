@@ -134,8 +134,10 @@ h6 {
 body p {
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
+    margin-bottom: 1em;
     color: var(--cor-terciaria);
 }
+
 
 /*NAV (MENU)*/
 
@@ -508,10 +510,13 @@ article p {
 }
 
 article blockquote {
+    line-height: 1.5em;
     text-align: left;
     color: var(--cor-quartenaria);
-    margin: 20px 0px;
-    padding: 0px 20px;
+    margin: 20px 20px;
+    padding: 0px 10px;
+    border-left: 3px solid var(--cor-quartenaria);
+    border-radius: 1px;
 }
 
 .container-capa {
