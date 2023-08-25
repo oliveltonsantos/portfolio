@@ -576,7 +576,7 @@ article ul li {
 /*FOOTER (RODAPÉ)*/
 
 footer {
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
     background-color: var(--cor-secundaria);
     padding: 10px;
