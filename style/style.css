@@ -114,12 +114,24 @@ ul li a:hover {
     text-decoration: underline;
 }
 
+/* Lista não ordenada */
+
+.container-section ul, article ul {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    list-style-type: '\1F449\00A0\00A0';
+    list-style-position: inside;
+}
+
+.container-section li, article li {
+    margin-bottom: 15px;
+}
+
 
 /*BODY (CORPO)*/
 
 body {
     background-color: var(--cor-primaria);
-    height:100%;
 }
 
 body h1,
@@ -199,6 +211,10 @@ nav a:hover {
 
 .texto p {
     line-height: 1.5em;
+}
+
+.texto .paragrafos p:first-child {
+    margin-bottom: 0;
 }
 
 strong {
@@ -328,17 +344,6 @@ blockquote {
     margin-bottom: 20px;
 }
 
-.container-section ul {
-    font-family: var(--fonte-destaque);
-    font-size: 1.2em;
-    list-style-type: '\1F449\00A0\00A0';
-    list-style-position: inside;
-}
-
-.container-section ul li {
-    margin-bottom: 15px;
-}
-
 .cursoemvideo {
     display: flex;
     justify-content: center;
@@ -371,8 +376,6 @@ blockquote {
 }
 
 /* BLOG */
-
-
 
 .blog-container h1 {
     font-size: 1.5em;
@@ -511,18 +514,29 @@ article p {
     padding: 10px 10px;
 }
 
+article blockquote {
+    text-align: left;
+    color: var(--cor-quartenaria);
+    margin: 20px 0px;
+    padding: 0px 10px;
+}
+
+article ul li {
+    color: var(--cor-terciaria);
+    padding: 0px 10px;
+    list-style-position: inside;
+}
 .artigo-capa {
     display: block;
     width: 1000px;
-    height: 400px;
+    height: auto;
     margin: auto;
     border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
 }
 
 article img {
     display: block;
-    width: 80%;
+    width: 90%;
     border-radius: 20px;
     margin: 10px auto 10px auto;
 }
@@ -590,6 +604,7 @@ footer p a:hover {
 
     .artigo-capa {
         height: 300px;
+        object-fit: cover;
     }
 
 }
