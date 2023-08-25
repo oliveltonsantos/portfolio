@@ -535,7 +535,7 @@ article blockquote {
     font-size: 1em;
     position: absolute;
     padding: 10px;
-    bottom: 5px;
+    bottom: -10px;
     background: var(--cor-primaria);
     border-radius: 50px;
 }
@@ -640,6 +640,7 @@ footer p a:hover {
 
     .data-publicacao {
         font-size: 0.9em;
+        bottom: -10px;
     }
 
 }
