@@ -7,7 +7,7 @@
 /*PSEUDO-CLASSE*/
 
 :root {
-    --cor-primaria: #000000;
+    --cor-primaria: #242424;
     --cor-secundaria: #1d1d1d;
     --cor-terciaria: #ffffff;
     --cor-quartenaria: #71ae3f;
@@ -31,64 +31,48 @@ img {
     display: block;
 }
 
-/*Main (conteúdo principal da página) */
-
-main {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-main h2 {
-    padding: 20px;
-    text-align: center;
-}
-
 /* Container das seções */
 
-.container-section {
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 10px auto 0px auto;
-    padding: 20px 20px;
-    border-radius: 20px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
 }
 
 /* Botões */
 
 .btn-geral {
-    text-align: center;
-    transition: all .5s ease-in-out;
-}
 
-.btn-geral:hover {
-    scale: 1.1;
-}
-
-.btn-geral a {
     font-family: var(--fonte-destaque);
     font-weight: 500;
+    text-align: center;
+    text-decoration: none;
 
-    width: 100px;
+    width: 110px;
+    margin-top: auto;
+    margin-bottom: 10px;
     padding: 10px;
+
+    display: inline-block;
+    align-self: center;
+
+    background: var(--cor-primaria);
+    color: var(--cor-terciaria);
 
     border: 2px solid var(--cor-quartenaria);
     border-radius: 20px;
 
-    color: var(--cor-terciaria);
-    background-color: var(--cor-primaria);
-
     transition: all .5s ease-in-out;
+
 }
 
-.btn-geral a:hover {
+.btn-geral:hover {
     text-decoration: none;
+    scale: 1.1;
     background-color: var(--cor-quartenaria);
-    color: var(--cor-secundaria);
-}
-
-.btn-geral:hover i {
     color: var(--cor-secundaria);
 }
 
@@ -119,6 +103,7 @@ ul li a:hover {
 
 body {
     background-color: var(--cor-primaria);
+    height: 100vh; 
 }
 
 body h1,
@@ -131,10 +116,13 @@ h6 {
     color: var(--cor-quartenaria);
 }
 
+h2.titulo {
+    text-align: center;
+}
+
 body p {
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
-    margin-bottom: 1em;
     color: var(--cor-terciaria);
 }
 
@@ -173,141 +161,144 @@ nav a:hover {
     text-decoration: none;
 }
 
+/* ------------- QUEM SOU ------------- */  
 
-/* QUEM SOU EU */
+.img-quem-sou {
+    width: 500px;
+}
 
-.quem-sou {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+section.quem-sou {
+    padding: 40px 4%;
+}
+
+section.quem-sou .flex {
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    gap: 100px;
 }
 
-.texto {
-    width: 550px;
-}
-
-.texto h2 {
-    text-align: left;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-.texto .paragrafos {
-    margin-bottom: 30px;
-}
-
-.texto .paragrafos p:first-child {
-    margin-bottom: 0;
-}
-
-.texto p {
-    line-height: 1.5em;
-}
-
-strong {
-    color: var(--cor-quartenaria);
-}
-
-.botoes {
+.btn-quem-sou {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
+/* ------X------- QUEM SOU ------X------- */
 
-/* MEU PROPÓSITO */
 
-blockquote {
-    font-style: italic;
-    font-family: var(--fonte-destaque);
-    font-weight: 400;
-    font-size: 1.2em;
-    text-align: center;
+/* ------------- MEU PROPÓSITO ------------- */  
+
+section.proposito {
+    padding: 40px 4%;
 }
 
-
-/* LINGUAGENS DE PROGRAMAÇÃO */
-
-.linguagens {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.linguagens a {
-    width: 50px;
-    height: 50px;
-    background-color: #71ae3f;
-    color: white;
-    border-radius: 50%;
-    display: flex;
+section.proposito .flex {
     justify-content: center;
     align-items: center;
-    transition: all .5s ease-in-out;
 }
 
-.linguagens a:hover {
-    scale: 1.1;
+/* ------X------- MEU PROPÓSITO ------X------- */
+
+
+/* ------------- TECNOLOGIAS ------------- */  
+
+section.tecnologias {
+    padding: 40px 4%;
 }
 
-.linguagens i {
-    font-size: 1.5em;
-}
-
-.linguagens .icon-text {
-    display: flex;
-    flex-direction: column;
+section.tecnologias .flex {
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    color: var(--cor-quartenaria);
-}
-
-.linguagens .icon-text p {
-    color: var(--cor-terciaria);
-}
-
-/* MEUS PROJETOS */
-
-.container-card {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 30px;
 }
 
-.card {
-    width: 300px;
-    height: 300px;
-    background: var(--cor-primaria);
-    border-radius: 20px;
+.icon-tecnologia {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-tecnologia i {
+    width: 50px;
+    height: 50px;
+    background: var(--cor-quartenaria);
+    color: var(--cor-terciaria);
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.card h3 {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    padding: 0px 5px;
+/* ------X------- TECNOLOGIAS ------X------- */
+
+
+/* ------------- MEUS PROJETOS ------------- */  
+
+section.projetos {
+    padding: 40px 4%;
 }
 
-.card img {
+section.projetos .flex {
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.card-projeto {
+    width: 360px;
+    height: 460px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-projeto img {
     border-radius: 20px 20px 0px 0px;
 }
 
+/* ------X------- MEUS PROJETOS ------X------- */
 
-/* ACOMPANHE A MINHA JORNADA */
 
-.redes {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+/* ------------- FOOTER ------------- */ 
+
+footer {
+    padding: 20px 4%;
 }
 
-.redes a {
+footer .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha {
+    border-top: 2px solid var(--cor-quartenaria);
+    margin-bottom: 10px;
+}
+
+.redes-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer p i {
+    color: var(--cor-quartenaria);
+}
+
+.redes {
     width: 50px;
     height: 50px;
     background-color: #71ae3f;
@@ -319,13 +310,46 @@ blockquote {
     transition: all .5s ease-in-out;
 }
 
-.redes a:hover {
+.redes:hover {
     scale: 1.1;
 }
 
 .redes i {
     font-size: 1.5em;
 }
+
+/* ------X------- FOOTER ------X------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*PARTE SOBRE*/
@@ -436,7 +460,7 @@ blockquote {
     text-align: center;
     text-decoration: none;
 
-    width: 100px;
+    width: 110px;
     margin-top: auto;
     margin-bottom: 10px;
     padding: 10px;
@@ -451,7 +475,6 @@ blockquote {
     border-radius: 20px;
 
     transition: all .5s ease-in-out;
-
 }
 
 .btn-blog:hover {
@@ -570,31 +593,6 @@ article ul li {
     padding: 0px 10px;
     list-style-position: inside;
     margin-bottom: 15px;
-}
-
-
-/*FOOTER (RODAPÉ)*/
-
-footer {
-    font-size: 0.9em;
-    text-align: center;
-    background-color: var(--cor-secundaria);
-    padding: 10px;
-    margin-top: 10px;
-}
-
-footer p {
-    margin-bottom: 0;
-}
-
-footer p a {
-    color: var(--cor-terciaria);
-    text-decoration: none;
-}
-
-footer p a:hover {
-    color: var(--cor-quartenaria);
-    text-decoration: underline;
 }
 
 
