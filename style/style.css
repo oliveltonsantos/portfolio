@@ -169,6 +169,10 @@ nav a:hover {
 
 section.quem-sou {
     padding: 40px 4%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.quem-sou .flex {
@@ -188,14 +192,39 @@ section.quem-sou .flex {
 
 /* ------------- MEU PROPÓSITO ------------- */  
 
-section.proposito {
-    padding: 40px 4%;
+
+
+
+
+.titulo-proposito {
+    margin-bottom: 30px;
 }
 
-section.proposito .flex {
-    justify-content: center;
-    align-items: center;
+.fundo-proposito {
+    background-image: url(../imagens/tudor-baciu-vc3iVL_znJ8-unsplash.jpg);
+    background-color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    height: 500px;
+    background-position: right left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
+
+.sobreposicao {
+    height: 500px;
+    background-color: rgba(255, 0, 0, 0.37);
+}
+
+.texto-proposito {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* ------X------- MEU PROPÓSITO ------X------- */
 
@@ -204,17 +233,20 @@ section.proposito .flex {
 
 section.tecnologias {
     padding: 40px 4%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.tecnologias .flex {
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
+    margin-top: 30px;
 }
 
 .icon-tecnologia {
-    width: 200px;
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,7 +277,7 @@ section.projetos {
 
 section.projetos .flex {
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .card-projeto {
