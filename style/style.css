@@ -181,6 +181,10 @@ section.quem-sou .flex {
     gap: 100px;
 }
 
+.quem-sou h2, p {
+    margin-bottom: 20px;
+}
+
 .btn-quem-sou {
     display: flex;
     flex-wrap: wrap;
@@ -191,10 +195,6 @@ section.quem-sou .flex {
 
 
 /* ------------- MEU PROPÓSITO ------------- */  
-
-
-
-
 
 .titulo-proposito {
     margin-bottom: 30px;
@@ -219,12 +219,13 @@ section.quem-sou .flex {
 
 .texto-proposito {
     text-align: center;
+    font-style: italic;
+    font-weight: 500;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 /* ------X------- MEU PROPÓSITO ------X------- */
 
@@ -281,12 +282,25 @@ section.projetos .flex {
 }
 
 .card-projeto {
-    width: 360px;
-    height: 460px;
+    width: 350px;
+    height: 400px;
     border-radius: 20px 20px 20px 20px;
     background-color: var(--cor-secundaria);
     display: flex;
     flex-direction: column;
+}
+
+.card-projeto h3 {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.card-projeto p {
+    font-size: 1em;
+    padding: 5px 10px;
+    margin-bottom: 10px;
 }
 
 .card-projeto img {
