@@ -212,7 +212,6 @@ section.quem-sou .flex {
 .fundo-proposito {
     background-image: url(../imagens/background.jpg);
     background-color: white;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -250,7 +249,7 @@ section.tecnologias {
 }
 
 section.tecnologias .flex {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 100px;
     margin-top: 30px;
@@ -723,6 +722,10 @@ article ul li {
         height: 400px;
     }
 
+    .fundo-proposito {
+        background-attachment: scroll;
+    }
+    
     /* ------X------- PROPÓSITO ------X------- */
 
 
