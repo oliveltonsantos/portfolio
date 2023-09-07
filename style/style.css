@@ -51,7 +51,7 @@ img {
     text-align: center;
     text-decoration: none;
 
-    width: 110px;
+    width: 140px;
     margin-top: auto;
     margin-bottom: 10px;
     padding: 10px;
@@ -127,7 +127,7 @@ body p {
 }
 
 
-/*NAV (MENU)*/
+/* HEADER E NAV */
 
 header {
     padding: 20px 0%;
@@ -174,7 +174,7 @@ nav a:hover {
 }
 
 section.quem-sou {
-    padding: 150px 4%;
+    padding: 10% 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -517,7 +517,7 @@ section.blog-page {
     text-align: center;
     text-decoration: none;
 
-    width: 110px;
+    width: 140px;
     margin-top: auto;
     margin-bottom: 10px;
     padding: 10px;
@@ -661,15 +661,17 @@ article ul li {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1200px) {
 
     /* ------------- CLASSES GERAIS ------------- */
 
-    /* ------X------- CLASSES GERAIS ------X------- */
     .flex {
         flex-direction: column;
         gap: 20px;
     }
+
+    /* ------X------- CLASSES GERAIS ------X------- */
+
 
     /* ------------- QUEM SOU ------------- */
 
@@ -799,7 +801,7 @@ article ul li {
     }
 
     section.artigo {
-        padding: 70px 4%;
+        padding: 70px 4% 10px 4%;
     }
 
     .artigo-capa {
@@ -834,5 +836,5 @@ article ul li {
 
     /* ------X------- FOOTER ------X------- */
 
-
 }
+
