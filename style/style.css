@@ -213,7 +213,7 @@ section.quem-sou .flex {
     background-image: url(../imagens/background.jpg);
     background-color: white;
     height: 500px;
-    background-position: center;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -222,7 +222,7 @@ section.quem-sou .flex {
 
 .sobreposicao {
     height: 500px;
-    background-color: #1e1e1e9b;
+    background-color: #1e1e1ecd;
 }
 
 .texto-proposito {
@@ -331,7 +331,7 @@ footer .flex {
 }
 
 .linha {
-    border-top: 2px solid var(--cor-quartenaria);
+    border-bottom: 2px solid var(--cor-secundaria);
     margin-bottom: 10px;
 }
 
@@ -723,9 +723,10 @@ article ul li {
     }
 
     .fundo-proposito {
+        background-position: 40% 50%;
         background-attachment: scroll;
     }
-    
+
     /* ------X------- PROPÓSITO ------X------- */
 
 
