@@ -210,11 +210,11 @@ section.quem-sou .flex {
 }
 
 .fundo-proposito {
-    background-image: url(../imagens/tudor-baciu-vc3iVL_znJ8-unsplash.jpg);
+    background-image: url(../imagens/background.jpg);
     background-color: white;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     height: 500px;
-    background-position: right left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
