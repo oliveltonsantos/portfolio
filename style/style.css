@@ -338,6 +338,7 @@ footer p {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-bottom: 0px;
 }
 
 footer p i {
@@ -644,38 +645,83 @@ article ul li {
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 200px) and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
-    .quem-sou {
-        flex-direction: column-reverse;
+    .flex {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .texto {
+    section.quem-sou {
+        padding: 100px 8%;
+    }
+
+    section.quem-sou .flex {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .texto-quem-sou {
         width: auto;
     }
 
-    .texto h2 {
+    .texto-quem-sou h2 {
         text-align: center;
     }
 
-    .texto p {
+    .texto-quem-sou p {
         text-align: center;
     }
 
-    .botoes {
+    .btn-quem-sou {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 35px;
+        gap: 10px;
     }
 
-    .foto-perfil {
+    .img-quem-sou {
         width: 100%;
         max-width: 200px;
         height: auto;
         display: block;
         margin-top: 10px;
     }
+
+    section.tecnologias .flex {
+        gap: 10px;
+    }
+
+    section.tecnologias {
+        padding: 150px 8%;
+
+    }
+
+    section.projetos {
+        padding: 40px 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-projeto {
+        width: 300px;
+        height: 400px;
+    }
+
+    footer p i {
+        display: none;
+    }
+
+    .redes-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    
+
+
+  
 
     .artigo-capa {
         height: 300px;
