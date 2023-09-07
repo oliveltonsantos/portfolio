@@ -7,8 +7,8 @@
 /*PSEUDO-CLASSE*/
 
 :root {
-    --cor-primaria: #242424;
-    --cor-secundaria: #1d1d1d;
+    --cor-primaria: #121212;
+    --cor-secundaria: #1E1E1E;
     --cor-terciaria: #ffffff;
     --cor-quartenaria: #71ae3f;
 
@@ -103,7 +103,7 @@ ul li a:hover {
 
 body {
     background-color: var(--cor-primaria);
-    height: 100vh; 
+    height: 100vh;
 }
 
 body h1,
@@ -161,15 +161,14 @@ nav a:hover {
     text-decoration: none;
 }
 
-/* ------------- QUEM SOU ------------- */  
+/* ------------- QUEM SOU ------------- */
 
 .img-quem-sou {
     width: 500px;
 }
 
 section.quem-sou {
-    padding: 40px 4%;
-    height: 65vh;
+    padding: 150px 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,7 +180,11 @@ section.quem-sou .flex {
     gap: 100px;
 }
 
-.quem-sou h2, p {
+.texto-quem-sou h2 {
+    margin-bottom: 20px;
+}
+
+.texto-quem-sou p {
     margin-bottom: 20px;
 }
 
@@ -194,10 +197,10 @@ section.quem-sou .flex {
 /* ------X------- QUEM SOU ------X------- */
 
 
-/* ------------- MEU PROPÓSITO ------------- */  
+/* ------------- MEU PROPÓSITO ------------- */
 
 .titulo-proposito {
-    margin-bottom: 30px;
+    margin: 20px 0px;
 }
 
 .fundo-proposito {
@@ -214,7 +217,7 @@ section.quem-sou .flex {
 
 .sobreposicao {
     height: 500px;
-    background-color: rgba(255, 0, 0, 0.37);
+    background-color: #1e1e1e9b;
 }
 
 .texto-proposito {
@@ -230,11 +233,11 @@ section.quem-sou .flex {
 /* ------X------- MEU PROPÓSITO ------X------- */
 
 
-/* ------------- TECNOLOGIAS ------------- */  
+/* ------------- TECNOLOGIAS ------------- */
 
 section.tecnologias {
     padding: 40px 4%;
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,6 +256,7 @@ section.tecnologias .flex {
     align-items: center;
     flex-direction: column;
 }
+
 .icon-tecnologia i {
     width: 50px;
     height: 50px;
@@ -270,7 +274,7 @@ section.tecnologias .flex {
 /* ------X------- TECNOLOGIAS ------X------- */
 
 
-/* ------------- MEUS PROJETOS ------------- */  
+/* ------------- MEUS PROJETOS ------------- */
 
 section.projetos {
     padding: 40px 4%;
@@ -310,7 +314,7 @@ section.projetos .flex {
 /* ------X------- MEUS PROJETOS ------X------- */
 
 
-/* ------------- FOOTER ------------- */ 
+/* ------------- FOOTER ------------- */
 
 footer {
     padding: 20px 4%;
@@ -330,7 +334,7 @@ footer .flex {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    
+
 }
 
 footer p {
@@ -368,41 +372,37 @@ footer p i {
 /* ------X------- FOOTER ------X------- */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*PARTE SOBRE*/
 
-.container-section .linha-paragrafo {
+section.jornada {
+    padding: 30px 4%;
+}
+
+.jornada h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+section.comecar {
+    padding: 30px 4%;
+}
+
+.comecar h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.comecar p {
     margin-bottom: 20px;
+}
+
+section.aprendizado {
+    padding: 30px 4%;
+}
+
+.aprendizado h2 {
+    padding: 20px;
+    text-align: center;
 }
 
 .cursoemvideo {
@@ -438,28 +438,33 @@ footer p i {
 
 /* Lista não ordenada sobre*/
 
-.container-section ul {
+.comecar ul {
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
     list-style-type: '\1F449\00A0\00A0';
     list-style-position: inside;
 }
 
-.container-section li {
+.comecar li {
     margin-bottom: 15px;
+    color: var(--cor-terciaria);
 }
 
 
 /* BLOG */
 
-.blog-container h1 {
+section.blog-page {
+    padding: 20px 4%;
+}
+
+.blog-page h1 {
     font-size: 1.5em;
     text-align: center;
     color: var(--cor-terciaria);
     margin: 20px 0px;
 }
 
-.blog-container h1 span {
+.blog-page h1 span {
     color: var(--cor-quartenaria);
 }
 
@@ -533,8 +538,11 @@ footer p i {
 
 /* ARTIGOS DO BLOG */
 
+section.artigo {
+    padding: 10px 4%;
+}
+
 article {
-    min-width: 200px;
     max-width: 1000px;
     margin: 10px auto 0px auto;
     border-radius: 20px;
@@ -542,6 +550,7 @@ article {
 }
 
 article h1 {
+    font-size: 1.5em;
     text-align: left;
     padding: 0px 20px;
     margin: 10px 0px;
@@ -585,6 +594,8 @@ article p {
 }
 
 article blockquote {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
     line-height: 1.5em;
     text-align: left;
     color: var(--cor-quartenaria);
@@ -605,7 +616,7 @@ article blockquote {
     font-size: 1em;
     position: absolute;
     padding: 10px;
-    bottom: -10px;
+    bottom: 10px;
     background: var(--cor-primaria);
     border-radius: 50px;
 }
@@ -645,15 +656,20 @@ article ul li {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 
+    /* ------------- CLASSES GERAIS ------------- */
+
+    /* ------X------- CLASSES GERAIS ------X------- */
     .flex {
         flex-direction: column;
         gap: 20px;
     }
 
+    /* ------------- QUEM SOU ------------- */
+
     section.quem-sou {
-        padding: 100px 8%;
+        padding: 25px 8%;
     }
 
     section.quem-sou .flex {
@@ -688,17 +704,54 @@ article ul li {
         margin-top: 10px;
     }
 
+    /* ------X------- QUEM SOU ------X------- */
+
+
+    /* ------------- PROPÓSITO ------------- */
+
+    .fundo-proposito {
+        height: 400px;
+    }
+
+    .sobreposicao {
+        height: 400px;
+    }
+
+    /* ------X------- PROPÓSITO ------X------- */
+
+
+    /* ------------- TECNOLOGIAS ------------- */
+
     section.tecnologias .flex {
         gap: 10px;
     }
 
     section.tecnologias {
-        padding: 150px 8%;
+        padding: 20px 8%;
 
     }
 
+    section.tecnologias .flex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .icon-tecnologia p {
+        font-size: 1em;
+    }
+
+    .icon-tecnologia i {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* ------X------- TECNOLOGIAS ------X------- */
+
+
+    /* ------------- PROJETOS ------------- */
+
     section.projetos {
-        padding: 40px 8%;
+        padding: 20px 8%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -709,19 +762,35 @@ article ul li {
         height: 400px;
     }
 
-    footer p i {
-        display: none;
+    /* ------X------- PROJETOS ------X------- */
+
+
+    /* ------------- PARTE SOBRE ------------- */
+
+    section.jornada {
+        padding: 20px 8%;
     }
 
-    .redes-footer {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;   
+    section.comecar {
+        padding: 20px 8%;
     }
-    
+
+    section.aprendizado {
+        padding: 20px 8%;
+    }
+
+    /* ------X------- PARTE SOBRE ------X------- */
 
 
-  
+    /* ------------- BLOG ------------- */
+
+    section.blog-page {
+        padding: 5px 4%;
+    }
+
+    section.artigo {
+        padding: 5px 4%;
+    }
 
     .artigo-capa {
         height: 300px;
@@ -730,7 +799,30 @@ article ul li {
 
     .data-publicacao {
         font-size: 0.9em;
-        bottom: -10px;
+        bottom: 5px;
     }
+
+    /* ------X------- BLOG ------X------- */
+
+
+    /* ------------- FOOTER ------------- */
+
+    footer p i {
+        display: none;
+    }
+
+    .redes-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes-footer .redes-footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* ------X------- FOOTER ------X------- */
+
 
 }
