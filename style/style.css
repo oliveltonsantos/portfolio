@@ -370,6 +370,7 @@ footer p i {
 .redes:hover {
     scale: 1.1;
     text-decoration: none;
+    color: var(--cor-secundaria);
 }
 
 .redes i {
@@ -434,6 +435,7 @@ section.aprendizado {
 .cursoemvideo a:hover {
     scale: 1.1;
     text-decoration: none;
+    color: var(--cor-secundaria);
 }
 
 .cursoemvideo i {
