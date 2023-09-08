@@ -269,7 +269,7 @@ section.tecnologias .flex {
     color: var(--cor-terciaria);
     border-radius: 50%;
     padding: 20px;
-    font-size: 2em;
+    font-size: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -335,6 +335,7 @@ footer .flex {
     margin-bottom: 10px;
 }
 
+.email-footer,
 .redes-footer {
     display: flex;
     flex-direction: row;
@@ -368,6 +369,7 @@ footer p i {
 
 .redes:hover {
     scale: 1.1;
+    text-decoration: none;
 }
 
 .redes i {
@@ -431,6 +433,7 @@ section.aprendizado {
 
 .cursoemvideo a:hover {
     scale: 1.1;
+    text-decoration: none;
 }
 
 .cursoemvideo i {
@@ -755,6 +758,7 @@ article ul li {
     .icon-tecnologia i {
         width: 30px;
         height: 30px;
+        font-size: 2em;
     }
 
     /* ------X------- TECNOLOGIAS ------X------- */
@@ -819,17 +823,18 @@ article ul li {
 
     /* ------------- FOOTER ------------- */
 
-    footer p i {
+    footer .flex p i {
         display: none;
     }
 
+    .email-footer,
     .redes-footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .redes-footer .redes-footer {
+    .redes-footer {
         display: flex;
         flex-direction: row;
     }
