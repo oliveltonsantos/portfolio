@@ -169,10 +169,6 @@ nav a:hover {
 
 /* ------------- QUEM SOU ------------- */
 
-.img-quem-sou {
-    width: 500px;
-}
-
 section.quem-sou {
     padding: 10% 4%;
     display: flex;
