@@ -323,32 +323,61 @@ footer {
 
 footer .flex {
     justify-content: space-between;
-    align-items: center;
-}
-
-.linha {
-    border-bottom: 2px solid var(--cor-secundaria);
-    margin-bottom: 10px;
-}
-
-.email-footer,
-.redes-footer {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-
-}
-
-footer p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 0px;
 }
 
 footer p i {
     color: var(--cor-quartenaria);
+}
+
+footer a {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha1 {
+    border-bottom: 2px solid var(--cor-secundaria);
+    margin-bottom: 20px;
+}
+
+.linha2 {
+    border-bottom: 2px solid var(--cor-secundaria);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navegacao-footer {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.navegacao-footer a {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.contato-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contato-footer p {
+    line-height: 1.5em;
+}
+
+.titulo-footer {
+    margin-bottom: 10px;
+}
+
+.redes-grupo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .redes {
@@ -821,20 +850,21 @@ article ul li {
 
     /* ------------- FOOTER ------------- */
 
-    footer .flex p i {
-        display: none;
-    }
-
-    .email-footer,
-    .redes-footer {
-        flex-direction: column;
-        justify-content: center;
+    footer .flex {
+        gap: 40px;
         align-items: center;
     }
 
-    .redes-footer {
-        display: flex;
-        flex-direction: row;
+    .navegacao-footer {
+        align-items: center;
+    }
+
+    .contato-footer {
+        align-items: center;
+    }
+
+    .titulo-footer {
+        text-align: center;
     }
 
     /* ------X------- FOOTER ------X------- */
