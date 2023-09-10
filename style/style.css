@@ -98,6 +98,11 @@ ul li a:hover {
     text-decoration: underline;
 }
 
+.active {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-secundaria);
+}
+
 
 /*BODY (CORPO)*/
 
@@ -182,11 +187,14 @@ section.quem-sou .flex {
     gap: 100px;
 }
 
-.texto-quem-sou h2 {
+.texto-quem-sou h1 {
+    font-weight: normal;
+    font-size: 1.2em;
+    color: var(--cor-terciaria);
     margin-bottom: 20px;
 }
 
-.texto-quem-sou p {
+.texto-quem-sou h2 {
     margin-bottom: 20px;
 }
 
@@ -718,11 +726,11 @@ article ul li {
         width: auto;
     }
 
-    .texto-quem-sou h2 {
+    .texto-quem-sou h1 {
         text-align: center;
     }
 
-    .texto-quem-sou p {
+    .texto-quem-sou h2 {
         text-align: center;
     }
 
