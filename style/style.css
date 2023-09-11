@@ -195,6 +195,17 @@ nav a:hover {
     display: none;
 }
 
+.btn-abrir-menu .abrir-menu-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-abrir-menu .abrir-menu-flex p {
+    font-size: 0.6em;
+}
+
 .menu-mobile.abrir-menu {
     width: 70%;
 }
