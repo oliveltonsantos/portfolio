@@ -264,7 +264,6 @@ section.tecnologias .flex {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid var(--cor-quartenaria);
     border-radius: 20px;
     padding: 20px;
     width: 150px;
