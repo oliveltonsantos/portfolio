@@ -62,7 +62,7 @@ img {
     background: var(--cor-primaria);
     color: var(--cor-terciaria);
 
-    border: 2px solid var(--cor-quartenaria);
+    border: 1px solid var(--cor-quartenaria);
     border-radius: 20px;
 
     transition: all .5s ease-in-out;
@@ -264,19 +264,17 @@ section.tecnologias .flex {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid var(--cor-quartenaria);
+    border-radius: 20px;
+    padding: 20px;
+    width: 150px;
+    background: var(--cor-secundaria);
 }
 
 .icon-tecnologia i {
-    width: 50px;
-    height: 50px;
-    background: var(--cor-quartenaria);
-    color: var(--cor-terciaria);
-    border-radius: 50%;
-    padding: 20px;
-    font-size: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: var(--cor-quartenaria);
+    border-radius: 10px;
+    font-size: 4em;
     margin-bottom: 20px;
 }
 
@@ -296,7 +294,7 @@ section.projetos .flex {
 
 .card-projeto {
     width: 350px;
-    height: 400px;
+    height: 450px;
     border-radius: 20px 20px 20px 20px;
     background-color: var(--cor-secundaria);
     display: flex;
@@ -316,9 +314,18 @@ section.projetos .flex {
     margin-bottom: 10px;
 }
 
+.card-btn-grupo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: auto;
+}
+
 .card-projeto img {
     border-radius: 20px 20px 0px 0px;
 }
+
 
 /* ------X------- MEUS PROJETOS ------X------- */
 
@@ -566,7 +573,7 @@ section.blog-page {
     background: var(--cor-primaria);
     color: var(--cor-terciaria);
 
-    border: 2px solid var(--cor-quartenaria);
+    border: 1px solid var(--cor-quartenaria);
     border-radius: 20px;
 
     transition: all .5s ease-in-out;
@@ -756,15 +763,12 @@ article ul li {
 
     .fundo-proposito {
         height: 400px;
+        background-position: 40% 50%;
+        background-attachment: scroll;
     }
 
     .sobreposicao {
         height: 400px;
-    }
-
-    .fundo-proposito {
-        background-position: 40% 50%;
-        background-attachment: scroll;
     }
 
     /* ------X------- PROPÓSITO ------X------- */
@@ -772,18 +776,15 @@ article ul li {
 
     /* ------------- TECNOLOGIAS ------------- */
 
-    section.tecnologias .flex {
-        gap: 10px;
-    }
-
     section.tecnologias {
-        padding: 20px 8%;
+        padding: 120px 8%;
 
     }
 
     section.tecnologias .flex {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
+        gap: 20px;
     }
 
     .icon-tecnologia p {
@@ -791,8 +792,6 @@ article ul li {
     }
 
     .icon-tecnologia i {
-        width: 30px;
-        height: 30px;
         font-size: 2em;
     }
 
