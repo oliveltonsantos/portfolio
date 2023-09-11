@@ -172,6 +172,7 @@ nav a:hover {
     text-decoration: none;
 }
 
+
 /* ------------- MENU MOBILE ------------- */
 
 .menu-mobile {
@@ -397,7 +398,6 @@ section.projetos .flex {
 .card-projeto img {
     border-radius: 20px 20px 0px 0px;
 }
-
 
 /* ------X------- MEUS PROJETOS ------X------- */
 
@@ -625,6 +625,7 @@ section.blog-page {
     border-radius: 10px 10px 0px 0px;
 }
 
+
 /* BOTÃO BLOG */
 
 .btn-blog {
@@ -657,6 +658,7 @@ section.blog-page {
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
 }
+
 
 /* ARTIGOS DO BLOG */
 
@@ -789,7 +791,12 @@ article ul li {
 
     /* ------X------- CLASSES GERAIS ------X------- */
 
+
     /* ------------- HEADER e NAV ------------- */
+
+    header {
+        padding: 10px 0%;
+    }
 
     header .interface {
         justify-content: flex-end;
