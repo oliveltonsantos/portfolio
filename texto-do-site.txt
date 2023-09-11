@@ -26,9 +26,9 @@ BLOG
 
 ARTIGO
 
-<a href="https://hellooli.com">Início</a>
-<a href="https://hellooli.com/sobre">Sobre</a>
-<a href="https://hellooli.com/blog">Blog</a>
+<a class="nav-link" href="https://hellooli.com">Início</a>
+<a class="nav-link" href="https://hellooli.com/sobre">Sobre</a>
+<a class="nav-link" href="https://hellooli.com/blog">Blog</a>
 <a href="https://drive.google.com/file/d/1dmspWNkSs33pcjsTR_DC5dhLgsJLgP5M/view" target="_blank" rel="external">Currículo</a>
 
 
