@@ -378,7 +378,7 @@ section.projetos .flex {
 
 .card-projeto {
     width: 350px;
-    height: 450px;
+    height: auto;
     border-radius: 20px 20px 20px 20px;
     background-color: var(--cor-secundaria);
     display: flex;
@@ -396,6 +396,23 @@ section.projetos .flex {
     font-size: 1em;
     padding: 5px 10px;
     margin-bottom: 10px;
+}
+
+.tecnologias-projeto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.tecnologias-projeto p {
+    font-weight: 500;
+    text-align: center;
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-primaria);
+    width: auto;
+    border-radius: 20px;
 }
 
 .card-btn-grupo {
@@ -915,7 +932,6 @@ article ul li {
 
     .card-projeto {
         width: 300px;
-        height: 400px;
     }
 
     /* ------X------- PROJETOS ------X------- */
@@ -983,3 +999,4 @@ article ul li {
     /* ------X------- FOOTER ------X------- */
 
 }
+
