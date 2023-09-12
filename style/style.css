@@ -592,13 +592,17 @@ section.aprendizado {
 .comecar ul {
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
-    list-style-type: '\1F449\00A0\00A0';
+    list-style-type: none;
     list-style-position: inside;
 }
 
 .comecar li {
     margin-bottom: 15px;
     color: var(--cor-terciaria);
+}
+
+.comecar ul i {
+    color: var(--cor-quartenaria);
 }
 
 
