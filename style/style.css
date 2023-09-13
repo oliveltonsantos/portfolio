@@ -178,7 +178,6 @@ nav a:hover {
 .menu-mobile {
     background: var(--cor-secundaria);
     border-radius: 20px 0px 0px 20px;
-    border: 1px solid var(--cor-quartenaria);
     height: 100vh;
     position: fixed;
     top: 0;
@@ -209,6 +208,10 @@ nav a:hover {
 
 .menu-mobile.abrir-menu {
     width: 70%;
+    border-left: 1px solid var(--cor-quartenaria);
+    border-top: 1px solid var(--cor-quartenaria);
+    border-bottom: 1px solid var(--cor-quartenaria);
+    border-right: 0px;
 }
 
 .menu-mobile.abrir-menu~.overlay-menu {
