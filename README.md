@@ -1,4 +1,4 @@
-### 💡 Ideia do projeto:
+### 💡 Sobre o projeto:
 
 O ponto de partida foi quando li um [post](https://www.instagram.com/p/CoLfxKUOxtx/) criado pela [Raquel Maia](https://github.com/raquel-maia) no Instagram dela, o desafio foi criar um portfólio para mostrar projetos e deixar nossos contatos disponíveis.
 
