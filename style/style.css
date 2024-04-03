@@ -381,6 +381,8 @@ section.projetos {
 }
 
 section.projetos .flex {
+    flex-wrap: wrap;
+    row-gap: 20px;
     justify-content: space-between;
     margin-top: 30px;
 }
@@ -822,7 +824,7 @@ article ul li {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
 
     /* ------------- CLASSES GERAIS ------------- */
 
