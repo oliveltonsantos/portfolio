@@ -138,7 +138,6 @@ header {
     padding: 10px 0%;
     z-index: 999;
     background-color: var(--cor-primaria);
-    border-bottom: 2px solid var(--cor-secundaria);
 }
 
 header .interface {
@@ -146,6 +145,10 @@ header .interface {
     align-items: center;
     justify-content: space-between;
     padding: 0px 10px;
+    border-radius: 20px;
+    background: var(--cor-secundaria);
+    max-width: 1280px;
+    margin-top: 10px;
 }
 
 .sticky {
@@ -845,6 +848,7 @@ article ul li {
 
     header .interface {
         justify-content: space-between;
+        width: 90%;
     }
 
     .menu-desktop {
@@ -1016,4 +1020,47 @@ article ul li {
 
     /* ------X------- FOOTER ------X------- */
 
+}
+
+
+@media screen and (max-width: 925px) {
+    section.quem-sou .flex {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .texto-quem-sou {
+        width: auto;
+    }
+
+    .texto-quem-sou h1 {
+        text-align: center;
+    }
+
+    .texto-quem-sou h2 {
+        text-align: center;
+    }
+
+    .btn-quem-sou {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .img-quem-sou {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        display: block;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 1350px) {
+    header .interface {
+        width: 90%;
+    }
 }
