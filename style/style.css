@@ -137,6 +137,7 @@ body p {
 header {
     padding: 10px 0%;
     z-index: 999;
+    background: var(--cor-primaria);
 }
 
 header .interface {
