@@ -969,6 +969,10 @@ article ul li {
         padding: 70px 8% 20px 8%;
     }
 
+    section.jornada .interface {
+        margin-top: 30px;
+    }
+
     section.comecar {
         padding: 20px 8%;
     }
