@@ -541,7 +541,7 @@ footer a {
 /*PARTE SOBRE*/
 
 section.jornada {
-    padding: 70px 4% 30px 4%;
+    padding: 80px 4% 30px 4%;
 }
 
 .jornada .interface {
@@ -872,7 +872,7 @@ article ul li {
     /* ------------- QUEM SOU ------------- */
 
     section.quem-sou {
-        padding: 80px 8% 20px 8%;
+        padding: 90px 8% 20px 8%;
     }
 
     section.quem-sou .flex {
@@ -1034,6 +1034,10 @@ article ul li {
 
 
 @media screen and (max-width: 925px) {
+
+    section.quem-sou {
+        padding: 90px 8% 20px 8%;
+    }
 
     section.quem-sou .flex {
         flex-direction: column-reverse;
