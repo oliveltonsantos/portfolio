@@ -700,7 +700,7 @@ section.blog-page {
     background: var(--cor-primaria);
     color: var(--cor-terciaria);
 
-    border: 1px solid var(--cor-quartenaria);
+    border: 1px solid var(--cor-borda);
     border-radius: 20px;
 
     transition: all .5s ease-in-out;
