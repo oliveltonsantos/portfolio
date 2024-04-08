@@ -11,6 +11,7 @@
     --cor-secundaria: #24292f;
     --cor-terciaria: #ffffff;
     --cor-quartenaria: #71ae3f;
+    --cor-borda: #30363d;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Inter';
@@ -62,7 +63,7 @@ img {
     background: var(--cor-primaria);
     color: var(--cor-terciaria);
 
-    border: 1px solid var(--cor-quartenaria);
+    border: 1px solid var(--cor-borda);
     border-radius: 20px;
 
     transition: all .5s ease-in-out;
@@ -144,6 +145,7 @@ header .interface {
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
+    border: 1px solid var(--cor-borda);
     border-radius: 20px;
     background: var(--cor-secundaria);
     max-width: 1280px;
@@ -360,6 +362,7 @@ section.tecnologias .flex {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid var(--cor-borda);
     border-radius: 20px;
     padding: 20px;
     width: 150px;
@@ -392,6 +395,7 @@ section.projetos .flex {
 .card-projeto {
     width: 350px;
     height: auto;
+    border: 1px solid var(--cor-borda);
     border-radius: 20px 20px 20px 20px;
     background-color: var(--cor-secundaria);
     display: flex;
