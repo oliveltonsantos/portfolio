@@ -7,8 +7,8 @@
 /*PSEUDO-CLASSE*/
 
 :root {
-    --cor-primaria: #121212;
-    --cor-secundaria: #1E1E1E;
+    --cor-primaria: #0d1117;
+    --cor-secundaria: #24292f;
     --cor-terciaria: #ffffff;
     --cor-quartenaria: #71ae3f;
 
@@ -461,6 +461,7 @@ footer p i {
 footer a {
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
