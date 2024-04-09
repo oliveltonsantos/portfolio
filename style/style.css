@@ -494,8 +494,9 @@ section.contato .flex {
 .redes {
     width: 50px;
     height: 50px;
-    background-color: #71ae3f;
+    background-color: var(--cor-secundaria);
     color: white;
+    border: 1px solid var(--cor-borda);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -506,7 +507,9 @@ section.contato .flex {
 .redes:hover {
     scale: 1.1;
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    background: var(--cor-quartenaria);
+    border: 1px solid var(--cor-quartenaria);
 }
 
 .redes i {
@@ -587,8 +590,9 @@ section.aprendizado {
 .cursoemvideo a {
     width: 50px;
     height: 50px;
-    background-color: #71ae3f;
+    background-color: var(--cor-secundaria);
     color: white;
+    border: 1px solid var(--cor-borda);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -599,7 +603,9 @@ section.aprendizado {
 .cursoemvideo a:hover {
     scale: 1.1;
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    background: var(--cor-quartenaria);
+    border: 1px solid var(--cor-quartenaria);
 }
 
 .cursoemvideo i {
