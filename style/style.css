@@ -216,9 +216,9 @@ nav a:hover {
 
 .menu-mobile.abrir-menu {
     width: 70%;
-    border-left: 1px solid var(--cor-quartenaria);
-    border-top: 1px solid var(--cor-quartenaria);
-    border-bottom: 1px solid var(--cor-quartenaria);
+    border-left: 1px solid var(--cor-borda);
+    border-top: 1px solid var(--cor-borda);
+    border-bottom: 1px solid var(--cor-borda);
     border-right: 0px;
 }
 
