@@ -24,6 +24,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Imagens em geral */
 
 img {
@@ -447,67 +451,41 @@ section.projetos .flex {
 /* ------X------- MEUS PROJETOS ------X------- */
 
 
-/* ------------- FOOTER ------------- */
+/* ------------- CONTATO ------------- */
 
-footer {
-    padding: 20px 4%;
+section.contato {
+    padding: 40px 4%;
 }
 
-footer .flex {
-    justify-content: space-between;
+section.contato .flex {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
 }
 
-footer p i {
+.contato-frase {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contato-tradicional p {
+    line-height: 2em;
+}
+
+.contato-tradicional p i {
     color: var(--cor-quartenaria);
 }
 
-footer a {
-    font-family: var(--fonte-destaque);
-    font-size: 1.2em;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contato-tradicional p a {
+    color: var(--cor-terciaria);
 }
 
-.linha1 {
-    border-bottom: 2px solid var(--cor-secundaria);
-    margin-bottom: 20px;
+.contato-tradicional p a:hover {
+    color: var(--cor-quartenaria);
 }
 
-.linha2 {
-    border-bottom: 2px solid var(--cor-secundaria);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.navegacao-footer {
-    display: flex;
-    align-items: baseline;
-    flex-direction: column;
-}
-
-.navegacao-footer a {
-    font-family: var(--fonte-destaque);
-    font-size: 1.2em;
-    line-height: 1.5em;
-}
-
-.contato-footer {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.contato-footer p {
-    line-height: 1.5em;
-}
-
-.titulo-footer {
-    margin-bottom: 10px;
-}
-
-.redes-grupo {
+.contato-redes-grupo {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -533,6 +511,30 @@ footer a {
 
 .redes i {
     font-size: 1.5em;
+}
+
+
+/* ------X------- CONTATO ------X------- */
+
+
+/* ------------- FOOTER ------------- */
+
+footer {
+    padding: 20px 4%;
+}
+
+footer a {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-linha {
+    border-bottom: 2px solid var(--cor-secundaria);
+    margin-bottom: 20px;
 }
 
 /* ------X------- FOOTER ------X------- */
@@ -963,6 +965,15 @@ article ul li {
     }
 
     /* ------X------- PROJETOS ------X------- */
+
+
+    /* ------------- CONTATO ------------- */
+
+    .contato-tradicional p {
+        text-align: center;
+    }
+
+    /* ------X-----CONTATO ------X------- */
 
 
     /* ------------- PARTE SOBRE ------------- */
