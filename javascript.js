@@ -16,18 +16,3 @@ overlay.addEventListener('click', () => {
     menu.classList.remove('abrir-menu')
 })
 
-
-/* Link ativo na versão de desktop */
-
-const navLinkEls = document.querySelectorAll('.nav-link');
-const WindowPathname = window.location.pathname;
-
-navLinkEls.forEach(navLinkEl => {
-
-    const navLinkPathname = new URL(navLinkEl.href).pathname;
-
-
-    if ((WindowPathname === navLinkPathname) || (WindowPathname === 'index.html' && navLinkPathname === '/')) {
-        navLinkEl.classList.add('active');
-    }
-})
