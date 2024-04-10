@@ -604,6 +604,15 @@ section.comecar {
     margin-bottom: 20px;
 }
 
+section.conteudos-criados {
+    padding: 30px 4%;
+}
+
+.conteudos-criados h2 {
+    padding: 20px;
+    text-align: center;
+}
+
 section.aprendizado {
     padding: 30px 4%;
 }
