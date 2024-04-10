@@ -579,7 +579,7 @@ footer a {
 /*PARTE SOBRE*/
 
 section.sobre-curiosidades {
-    padding: 80px 4% 30px 4%;
+    padding: 80px 5% 30px 5%;
 }
 
 .sobre-curiosidades .interface {
@@ -596,7 +596,7 @@ section.sobre-curiosidades {
 }
 
 section.comecar {
-    padding: 30px 4%;
+    padding: 30px 5%;
 }
 
 .comecar .interface {
@@ -616,7 +616,7 @@ section.comecar {
 }
 
 section.conteudos-criados {
-    padding: 30px 4%;
+    padding: 30px 5%;
 }
 
 .conteudos-criados .interface {
@@ -632,7 +632,7 @@ section.conteudos-criados {
 }
 
 section.aprendizado {
-    padding: 30px 4%;
+    padding: 30px 5%;
 }
 
 .aprendizado .interface {
