@@ -287,6 +287,7 @@ section.quem-sou .flex {
 .texto-quem-sou h1 {
     font-weight: normal;
     font-size: 1.2em;
+    line-height: 1.5em;
     color: var(--cor-terciaria);
     margin-bottom: 20px;
 }
@@ -1128,4 +1129,3 @@ article ul li {
         width: 90%;
     }
 }
-
