@@ -427,6 +427,7 @@ section.projetos .flex {
     padding: 0px 10px;
     margin-bottom: 10px;
     margin-block-start: auto;
+    /* Faz as tags de tecnologia ficarem alinhadas dentro do card */
 }
 
 .tecnologias-projeto p {
