@@ -578,15 +578,15 @@ footer a {
 
 /*PARTE SOBRE*/
 
-section.jornada {
+section.sobre-curiosidades {
     padding: 80px 4% 30px 4%;
 }
 
-.jornada .interface {
+.sobre-curiosidades .interface {
     margin-top: 20px;
 }
 
-.jornada h2 {
+.sobre-curiosidades h2 {
     padding: 20px;
     text-align: center;
 }
