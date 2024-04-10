@@ -655,6 +655,7 @@ section.aprendizado {
 .lista-ordenada li {
     margin-bottom: 15px;
     color: var(--cor-terciaria);
+    line-height: 1.5em;
 }
 
 .lista-ordenada ul i {
