@@ -584,10 +584,13 @@ section.sobre-curiosidades {
 
 .sobre-curiosidades .interface {
     margin-top: 20px;
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .sobre-curiosidades h2 {
-    padding: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -595,8 +598,14 @@ section.comecar {
     padding: 30px 4%;
 }
 
-.comecar h2 {
+.comecar .interface {
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
     padding: 20px;
+}
+
+.comecar h2 {
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -608,8 +617,14 @@ section.conteudos-criados {
     padding: 30px 4%;
 }
 
-.conteudos-criados h2 {
+.conteudos-criados .interface {
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
     padding: 20px;
+}
+
+.conteudos-criados h2 {
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -617,8 +632,14 @@ section.aprendizado {
     padding: 30px 4%;
 }
 
-.aprendizado h2 {
+.aprendizado .interface {
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
     padding: 20px;
+}
+
+.aprendizado h2 {
+    padding-bottom: 20px;
     text-align: center;
 }
 
