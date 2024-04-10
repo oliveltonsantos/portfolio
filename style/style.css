@@ -417,6 +417,7 @@ section.projetos .flex {
     font-size: 1em;
     padding: 5px 10px;
     margin-bottom: 10px;
+    margin-block-start: auto;
 }
 
 .tecnologias-projeto {
@@ -425,6 +426,7 @@ section.projetos .flex {
     gap: 10px;
     padding: 0px 10px;
     margin-bottom: 10px;
+    margin-block-start: auto;
 }
 
 .tecnologias-projeto p {
