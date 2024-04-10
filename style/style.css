@@ -613,57 +613,21 @@ section.aprendizado {
     text-align: center;
 }
 
-.cursoemvideo {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.cursoemvideo a {
-    width: 50px;
-    height: 50px;
-    background-color: var(--cor-secundaria);
-    color: white;
-    border: 1px solid var(--cor-borda);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all .5s ease-in-out;
-}
-
-.cursoemvideo a:hover {
-    scale: 1.1;
-    text-decoration: none;
-    color: var(--cor-primaria);
-    background: var(--cor-quartenaria);
-    border: 1px solid var(--cor-quartenaria);
-}
-
-.cursoemvideo i {
-    font-size: 1.5em;
-}
-
-.foto-avatar {
-    margin: auto;
-}
-
 /* Lista não ordenada sobre*/
 
-.comecar ul {
+.lista-ordenada ul {
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
     list-style-type: none;
     list-style-position: inside;
 }
 
-.comecar li {
+.lista-ordenada li {
     margin-bottom: 15px;
     color: var(--cor-terciaria);
 }
 
-.comecar ul i {
+.lista-ordenada ul i {
     color: var(--cor-quartenaria);
 }
 
