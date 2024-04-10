@@ -64,7 +64,7 @@ img {
     display: inline-block;
     align-self: center;
 
-    background: var(--cor-primaria);
+    background: var(--cor-secundaria);
     color: var(--cor-terciaria);
 
     border: 1px solid var(--cor-borda);
@@ -446,6 +446,38 @@ section.projetos .flex {
 
 .card-projeto img {
     border-radius: 20px 20px 0px 0px;
+}
+
+.btn-projetos {
+
+    font-family: var(--fonte-destaque);
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+
+    width: 110px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    display: inline-block;
+    align-self: center;
+
+    background: var(--cor-primaria);
+    color: var(--cor-terciaria);
+
+    border: 1px solid var(--cor-borda);
+    border-radius: 20px;
+
+    transition: all .5s ease-in-out;
+
+}
+
+.btn-projetos:hover {
+    text-decoration: none;
+    scale: 1.1;
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-secundaria);
 }
 
 /* ------X------- MEUS PROJETOS ------X------- */
