@@ -590,7 +590,7 @@ footer a {
 /**********************************/
 
 section.sobre-curiosidades {
-    padding: 80px 5% 30px 5%;
+    padding: 110px 5% 30px 5%;
 }
 
 .sobre-curiosidades .interface {
@@ -599,6 +599,7 @@ section.sobre-curiosidades {
     border: 1px solid var(--cor-borda);
     border-radius: 20px;
     padding: 20px;
+    max-width: 1000px;
 }
 
 .sobre-curiosidades h2 {
@@ -615,6 +616,7 @@ section.comecar {
     border: 1px solid var(--cor-borda);
     border-radius: 20px;
     padding: 20px;
+    max-width: 1000px;
 }
 
 .comecar h2 {
@@ -635,6 +637,7 @@ section.conteudos-criados {
     border: 1px solid var(--cor-borda);
     border-radius: 20px;
     padding: 20px;
+    max-width: 1000px;
 }
 
 .conteudos-criados h2 {
@@ -651,6 +654,7 @@ section.aprendizado {
     border: 1px solid var(--cor-borda);
     border-radius: 20px;
     padding: 20px;
+    max-width: 1000px;
 }
 
 .aprendizado h2 {
@@ -782,7 +786,7 @@ section.artigo {
 
 article {
     max-width: 1000px;
-    margin: 40px auto 0px auto;
+    margin: 60px auto 0px auto;
     border: 1px solid var(--cor-borda);
     border-radius: 20px;
     background-color: var(--cor-secundaria);
