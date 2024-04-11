@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
-/*FONTES*/
+/**********************************/
+/* FONTES
+/**********************************/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*PSEUDO-CLASSE*/
+/**********************************/
+/* PSEUDO-CLASSE
+/**********************************/
 
 :root {
     --cor-primaria: #0d1117;
@@ -17,7 +22,10 @@
     --fonte-destaque: 'Inter';
 }
 
-/*CONFIGURAÇÕES GERAIS */
+
+/**********************************/
+/* CONFIGURAÇÕES GERAIS
+/**********************************/
 
 * {
     margin: 0px;
@@ -28,7 +36,10 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Imagens em geral */
+
+/**********************************/
+/* IMAGENS EM GERAL
+/**********************************/
 
 img {
     max-width: 100%;
@@ -36,7 +47,10 @@ img {
     display: block;
 }
 
-/* Container das seções */
+
+/**********************************/
+/* CONTAINER DAS SEÇÕES
+/**********************************/
 
 .interface {
     max-width: 1280px;
@@ -47,7 +61,10 @@ img {
     display: flex;
 }
 
-/* Botões */
+
+/**********************************/
+/* BOTÕES
+/**********************************/
 
 .btn-geral {
 
@@ -81,7 +98,10 @@ img {
     color: var(--cor-secundaria);
 }
 
-/* Links gerais */
+
+/**********************************/
+/* LINKS GERAIS
+/**********************************/
 
 a {
     color: var(--cor-quartenaria);
@@ -92,7 +112,10 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Links da lista não ordenada */
+
+/**********************************/
+/* LINKS DA LISTA NÃO ORDENADA
+/**********************************/
 
 ul li a {
     color: var(--cor-quartenaria);
@@ -109,7 +132,9 @@ ul li a:hover {
 }
 
 
-/*BODY (CORPO)*/
+/**********************************/
+/* BODY
+/**********************************/
 
 body {
     background-color: var(--cor-primaria);
@@ -137,7 +162,9 @@ body p {
 }
 
 
-/* HEADER E NAV */
+/**********************************/
+/* HEADER
+/**********************************/
 
 header {
     padding: 10px 0%;
@@ -162,6 +189,11 @@ header .interface {
     width: 100%;
 }
 
+
+/**********************************/
+/* NAV
+/**********************************/
+
 nav {
     font-family: var(--fonte-destaque);
 }
@@ -181,7 +213,10 @@ nav a:hover {
     text-decoration: none;
 }
 
-/* ------------- MENU MOBILE ------------- */
+
+/**********************************/
+/* MENU DE CELULAR
+/**********************************/
 
 .menu-mobile {
     background: var(--cor-secundaria);
@@ -266,13 +301,13 @@ nav a:hover {
     display: none;
 }
 
-/* ------X------- MENU MOBILE ------X------- */
 
-
-/* ------------- QUEM SOU ------------- */
+/**********************************/
+/* QUEM SOU
+/**********************************/
 
 section.quem-sou {
-    padding: 10% 4%;
+    padding: 150px 40px 4% 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,12 +319,21 @@ section.quem-sou .flex {
     gap: 100px;
 }
 
+.texto-apresentacao {
+    width: 700px;
+}
+
 .texto-quem-sou h1 {
     font-weight: normal;
     font-size: 1.2em;
     line-height: 1.5em;
     color: var(--cor-terciaria);
     margin-bottom: 20px;
+}
+
+.dev-front-end {
+    color: var(--cor-quartenaria);
+    font-weight: bold;
 }
 
 .texto-quem-sou h2 {
@@ -306,45 +350,10 @@ section.quem-sou .flex {
     border-radius: 50%;
 }
 
-/* ------X------- QUEM SOU ------X------- */
 
-
-/* ------------- MEU PROPÓSITO ------------- */
-
-.titulo-proposito {
-    margin: 20px 0px;
-}
-
-.fundo-proposito {
-    background-image: url(../imagens/background.jpg);
-    background-color: white;
-    height: 500px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-.sobreposicao {
-    height: 500px;
-    background-color: #1e1e1ed3;
-}
-
-.texto-proposito {
-    text-align: center;
-    font-style: italic;
-    font-weight: 500;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* ------X------- MEU PROPÓSITO ------X------- */
-
-
-/* ------------- TECNOLOGIAS ------------- */
+/**********************************/
+/* TECNOLOGIAS
+/**********************************/
 
 section.tecnologias {
     padding: 40px 4%;
@@ -380,10 +389,10 @@ section.tecnologias .flex {
     margin-bottom: 20px;
 }
 
-/* ------X------- TECNOLOGIAS ------X------- */
 
-
-/* ------------- MEUS PROJETOS ------------- */
+/**********************************/
+/* PROJETOS
+/**********************************/
 
 section.projetos {
     padding: 40px 4%;
@@ -484,10 +493,10 @@ section.projetos .flex {
     color: var(--cor-secundaria);
 }
 
-/* ------X------- MEUS PROJETOS ------X------- */
 
-
-/* ------------- CONTATO ------------- */
+/**********************************/
+/* CONTATO
+/**********************************/
 
 section.contato {
     padding: 40px 4%;
@@ -553,10 +562,9 @@ section.contato .flex {
 }
 
 
-/* ------X------- CONTATO ------X------- */
-
-
-/* ------------- FOOTER ------------- */
+/**********************************/
+/* FOOTER
+/**********************************/
 
 footer {
     padding: 20px 4%;
@@ -576,10 +584,10 @@ footer a {
     margin-bottom: 20px;
 }
 
-/* ------X------- FOOTER ------X------- */
 
-
-/*PARTE SOBRE*/
+/**********************************/
+/* PÁGINA SOBRE
+/**********************************/
 
 section.sobre-curiosidades {
     padding: 80px 5% 30px 5%;
@@ -650,7 +658,10 @@ section.aprendizado {
     text-align: center;
 }
 
-/* Lista não ordenada sobre*/
+
+/**********************************/
+/* SOBRE - LISTA NÃO ORDENADA 
+/**********************************/
 
 .lista-ordenada ul {
     font-family: var(--fonte-destaque);
@@ -670,7 +681,9 @@ section.aprendizado {
 }
 
 
-/* BLOG */
+/**********************************/
+/* BLOG
+/**********************************/
 
 section.blog-page {
     padding: 65px 4% 20px 4%;
@@ -723,7 +736,9 @@ section.blog-page {
 }
 
 
-/* BOTÃO BLOG */
+/**********************************/
+/* BOTÃO DO CARD - BLOG
+/**********************************/
 
 .btn-blog {
 
@@ -757,7 +772,9 @@ section.blog-page {
 }
 
 
-/* ARTIGOS DO BLOG */
+/**********************************/
+/* ARTIGOS DO BLOG
+/**********************************/
 
 section.artigo {
     padding: 70px 4% 20px 4%;
@@ -766,6 +783,7 @@ section.artigo {
 article {
     max-width: 1000px;
     margin: 40px auto 0px auto;
+    border: 1px solid var(--cor-borda);
     border-radius: 20px;
     background-color: var(--cor-secundaria);
 }
@@ -857,7 +875,10 @@ article img {
     margin: 20px auto 20px auto;
 }
 
-/* Lista não ordenada artigo */
+
+/**********************************/
+/* ARTIGO - LISTA NÃO ORDENADA
+/**********************************/
 
 article ul {
     font-family: var(--fonte-destaque);
@@ -875,21 +896,25 @@ article ul li {
 }
 
 
-/*MEDIA QUERIES*/
+/**********************************/
+/* MEDIA QUERIES
+/**********************************/
 
 @media screen and (max-width: 800px) {
 
-    /* ------------- CLASSES GERAIS ------------- */
+    /**********************************/
+    /* CLASSES GERAIS
+    /**********************************/
 
     .flex {
         flex-direction: column;
         gap: 20px;
     }
 
-    /* ------X------- CLASSES GERAIS ------X------- */
 
-
-    /* ------------- HEADER e NAV ------------- */
+    /**********************************/
+    /* HEADER
+    /**********************************/
 
     header {
         padding: 5px 0%;
@@ -909,10 +934,10 @@ article ul li {
         padding: 0px 2%;
     }
 
-    /* ------X------- HEADER e NAV ------X------- */
 
-
-    /* ------------- QUEM SOU ------------- */
+    /**********************************/
+    /* QUEM SOU
+    /**********************************/
 
     section.quem-sou {
         padding: 90px 8% 20px 8%;
@@ -923,7 +948,7 @@ article ul li {
         gap: 20px;
     }
 
-    .texto-quem-sou {
+    .texto-apresentacao {
         width: auto;
     }
 
@@ -950,25 +975,10 @@ article ul li {
         margin-top: 10px;
     }
 
-    /* ------X------- QUEM SOU ------X------- */
 
-
-    /* ------------- PROPÓSITO ------------- */
-
-    .fundo-proposito {
-        height: 400px;
-        background-position: 40% 50%;
-        background-attachment: scroll;
-    }
-
-    .sobreposicao {
-        height: 400px;
-    }
-
-    /* ------X------- PROPÓSITO ------X------- */
-
-
-    /* ------------- TECNOLOGIAS ------------- */
+    /**********************************/
+    /* TECNOLOGIAS
+    /**********************************/
 
     section.tecnologias {
         padding: 120px 8%;
@@ -989,10 +999,10 @@ article ul li {
         font-size: 2em;
     }
 
-    /* ------X------- TECNOLOGIAS ------X------- */
 
-
-    /* ------------- PROJETOS ------------- */
+    /**********************************/
+    /* PROJETOS
+    /**********************************/
 
     section.projetos {
         padding: 20px 8%;
@@ -1005,26 +1015,23 @@ article ul li {
         width: 300px;
     }
 
-    /* ------X------- PROJETOS ------X------- */
 
-
-    /* ------------- CONTATO ------------- */
+    /**********************************/
+    /* CONTATO
+    /**********************************/
 
     .contato-tradicional p {
         text-align: center;
     }
 
-    /* ------X-----CONTATO ------X------- */
 
-
-    /* ------------- PARTE SOBRE ------------- */
+    /**********************************/
+    /* PÁGINA - SOBRE
+    /**********************************/
 
     section.sobre-curiosidades {
-        padding: 70px 5% 20px 5%;
-    }
-
-    section.sobre-curiosidades .interface {
-        margin-top: 30px;
+        padding: 60px 5% 20px 5%;
+        margin: 40px auto 0px auto;
     }
 
     section.comecar {
@@ -1039,17 +1046,17 @@ article ul li {
         padding: 20px 5%;
     }
 
-    /* ------X------- PARTE SOBRE ------X------- */
 
-
-    /* ------------- BLOG ------------- */
+    /**********************************/
+    /* BLOG
+    /**********************************/
 
     section.blog-page {
-        padding: 60px 4%;
+        padding: 60px 5%;
     }
 
     section.artigo {
-        padding: 70px 4% 10px 4%;
+        padding: 80px 5% 10px 5%;
     }
 
     .artigo-capa {
@@ -1062,10 +1069,10 @@ article ul li {
         bottom: 5px;
     }
 
-    /* ------X------- BLOG ------X------- */
 
-
-    /* ------------- FOOTER ------------- */
+    /**********************************/
+    /* FOOTER
+    /**********************************/
 
     footer .flex {
         gap: 40px;
@@ -1084,12 +1091,14 @@ article ul li {
         text-align: center;
     }
 
-    /* ------X------- FOOTER ------X------- */
-
 }
 
 
 @media screen and (max-width: 925px) {
+
+    /**********************************/
+    /* QUEM SOU
+    /**********************************/
 
     section.quem-sou {
         padding: 90px 8% 20px 8%;
