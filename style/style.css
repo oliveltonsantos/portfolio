@@ -478,7 +478,7 @@ section.projetos .flex {
     align-self: center;
 
     background: var(--cor-quartenaria);
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 
     border: 1px solid var(--cor-quartenaria);
     border-radius: 20px;
