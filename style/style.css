@@ -179,7 +179,7 @@ header .interface {
     border: 1px solid var(--cor-borda);
     border-radius: 20px;
     background: var(--cor-secundaria);
-    max-width: 1280px;
+    width: 100%;
     margin-top: 10px;
 }
 
@@ -925,8 +925,8 @@ article ul li {
     }
 
     header .interface {
-        justify-content: space-between;
-        width: 90%;
+        background: var(--cor-secundaria);
+        max-width: auto;
     }
 
     .menu-desktop {
@@ -1009,14 +1009,13 @@ article ul li {
     /**********************************/
 
     section.projetos {
-        padding: 20px 8%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .card-projeto {
-        width: 300px;
+        width: auto;
     }
 
 
@@ -1095,6 +1094,23 @@ article ul li {
         text-align: center;
     }
 
+}
+
+
+@media screen and (min-width: 768px) {
+
+    /**********************************/
+    /* TECNOLOGIAS
+    /**********************************/
+
+    section.tecnologias {
+        padding: 20px 8%;
+
+    }
+
+    section.tecnologias .flex {
+        flex-direction: row;
+    }
 }
 
 
