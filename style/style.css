@@ -443,9 +443,10 @@ section.projetos .flex {
     font-size: 0.8em;
     font-weight: 600;
     text-align: center;
-    background-color: var(--cor-quartenaria);
-    color: var(--cor-primaria);
+    background-color: var(--cor-borda);
+    color: var(--cor-terciaria);
     width: auto;
+    border: 1px solid var(--cor-borda);
     border-radius: 20px;
 }
 
@@ -461,7 +462,37 @@ section.projetos .flex {
     border-radius: 20px 20px 0px 0px;
 }
 
-.btn-projetos {
+.btn-projetos-visualizar {
+
+    font-family: var(--fonte-destaque);
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+
+    width: 110px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    display: inline-block;
+    align-self: center;
+
+    background: var(--cor-quartenaria);
+    color: var(--cor-primaria);
+
+    border: 1px solid var(--cor-quartenaria);
+    border-radius: 20px;
+
+    transition: all .5s ease-in-out;
+
+}
+
+.btn-projetos-visualizar:hover {
+    text-decoration: none;
+    scale: 1.1;
+}
+
+.btn-projetos-github {
 
     font-family: var(--fonte-destaque);
     font-weight: 500;
@@ -479,18 +510,16 @@ section.projetos .flex {
     background: var(--cor-primaria);
     color: var(--cor-terciaria);
 
-    border: 1px solid var(--cor-borda);
+    border: 1px solid var(--cor-primaria);
     border-radius: 20px;
 
     transition: all .5s ease-in-out;
 
 }
 
-.btn-projetos:hover {
+.btn-projetos-github:hover {
     text-decoration: none;
     scale: 1.1;
-    background-color: var(--cor-quartenaria);
-    color: var(--cor-secundaria);
 }
 
 
