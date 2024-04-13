@@ -713,6 +713,11 @@ section.aprendizado {
     color: var(--cor-quartenaria);
 }
 
+.ano-sobre h3 {
+    margin: 20px 0px;
+    color: var(--cor-terciaria);
+}
+
 
 /**********************************/
 /* BLOG
