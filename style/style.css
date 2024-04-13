@@ -316,11 +316,11 @@ section.quem-sou {
 section.quem-sou .flex {
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 .texto-apresentacao {
-    width: 750px;
+    width: 650px;
 }
 
 .texto-quem-sou h1 {
