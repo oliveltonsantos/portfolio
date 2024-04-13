@@ -726,7 +726,7 @@ section.blog-page {
     font-size: 1.5em;
     text-align: center;
     color: var(--cor-terciaria);
-    margin: 40px 0px;
+    margin: 40px 0px 20px 0px;
 }
 
 .blog-page h1 span {
@@ -737,7 +737,7 @@ section.blog-page {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 }
 
