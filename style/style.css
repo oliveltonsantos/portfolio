@@ -726,6 +726,7 @@ section.blog-page {
     flex-direction: column;
     align-self: normal;
     background: var(--cor-secundaria);
+    border: 1px solid var(--cor-borda);
     border-radius: 20px;
 }
 
