@@ -12,11 +12,11 @@
 /**********************************/
 
 :root {
-    --cor-primaria: #181818;
-    --cor-secundaria: #262626;
-    --cor-terciaria: #d5d6d6;
+    --cor-primaria: #1b1b1e;
+    --cor-secundaria: #1e1e1e;
+    --cor-terciaria: #afb0b1;
     --cor-quartenaria: #71ae3f;
-    --cor-borda: #393839;
+    --cor-borda: #2f2f31;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Inter';
@@ -584,7 +584,7 @@ footer a {
 }
 
 .footer-linha {
-    border-bottom: 2px solid var(--cor-secundaria);
+    border-bottom: 2px solid var(--cor-borda);
     margin-bottom: 20px;
 }
 
@@ -936,6 +936,7 @@ article ul li {
     header .interface {
         background: var(--cor-secundaria);
         max-width: auto;
+        padding: 10px 10px;
     }
 
     .menu-desktop {
