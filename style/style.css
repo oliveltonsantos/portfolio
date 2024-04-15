@@ -12,11 +12,11 @@
 /**********************************/
 
 :root {
-    --cor-primaria: #1b1b1e;
-    --cor-secundaria: #1e1e1e;
-    --cor-terciaria: #afb0b1;
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #f8f8f8;
+    --cor-terciaria: #727272;
     --cor-quartenaria: #71ae3f;
-    --cor-borda: #2f2f31;
+    --cor-borda: #a3a3a3;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Inter';
@@ -443,7 +443,7 @@ section.projetos .flex {
     font-size: 0.8em;
     font-weight: 600;
     text-align: center;
-    background-color: var(--cor-borda);
+    background-color: var(--cor-primaria);
     color: var(--cor-terciaria);
     width: auto;
     border: 1px solid var(--cor-borda);
@@ -544,7 +544,7 @@ section.contato .flex {
     width: 50px;
     height: 50px;
     background-color: var(--cor-secundaria);
-    color: white;
+    color: var(--cor-terciaria);
     border: 1px solid var(--cor-borda);
     border-radius: 50%;
     display: flex;
