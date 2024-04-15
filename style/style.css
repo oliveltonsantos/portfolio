@@ -584,7 +584,7 @@ footer a {
 }
 
 .footer-linha {
-    border-bottom: 2px solid var(--cor-borda);
+    border-bottom: 1px solid var(--cor-borda);
     margin-bottom: 20px;
 }
 
