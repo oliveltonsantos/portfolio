@@ -181,6 +181,7 @@ header .interface {
     background: var(--cor-secundaria);
     width: 100%;
     margin-top: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
 }
 
 .sticky {
@@ -1176,4 +1177,3 @@ article ul li {
         width: 90%;
     }
 }
-
