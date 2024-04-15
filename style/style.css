@@ -12,11 +12,11 @@
 /**********************************/
 
 :root {
-    --cor-primaria: #ffffff;
-    --cor-secundaria: #f8f8f8;
+    --cor-primaria: #f8f9fa;
+    --cor-secundaria: #ffffff;
     --cor-terciaria: #727272;
     --cor-quartenaria: #71ae3f;
-    --cor-borda: #a3a3a3;
+    --cor-borda: #d2d2d2;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Inter';
@@ -413,6 +413,7 @@ section.projetos .flex {
     background-color: var(--cor-secundaria);
     display: flex;
     flex-direction: column;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
 }
 
 .card-projeto h3 {
@@ -1175,3 +1176,4 @@ article ul li {
         width: 90%;
     }
 }
+
