@@ -89,6 +89,8 @@ img {
     border: 1px solid var(--cor-borda);
     border-radius: 20px;
 
+    box-shadow: var(--sombra);
+
     transition: all .5s ease-in-out;
 
 }
@@ -383,6 +385,7 @@ section.tecnologias .flex {
     padding: 20px;
     width: 150px;
     background: var(--cor-secundaria);
+    box-shadow: var(--sombra);
 }
 
 .icon-tecnologia i {
@@ -488,6 +491,8 @@ section.projetos .flex {
     border: 1px solid var(--cor-borda);
     border-radius: 20px;
 
+    box-shadow: var(--sombra);
+
     transition: all .5s ease-in-out;
 
 }
@@ -555,6 +560,7 @@ section.contato .flex {
     justify-content: center;
     align-items: center;
     transition: all .5s ease-in-out;
+    box-shadow: var(--sombra);
 }
 
 .redes:hover {
