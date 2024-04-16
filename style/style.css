@@ -20,6 +20,8 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Inter';
+
+    --sombra: 0 .125rem .25rem rgba(0, 0, 0, .075);
 }
 
 
@@ -414,7 +416,7 @@ section.projetos .flex {
     background-color: var(--cor-secundaria);
     display: flex;
     flex-direction: column;
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    box-shadow: var(--sombra);
 }
 
 .card-projeto h3 {
@@ -606,6 +608,7 @@ section.sobre-curiosidades {
     border-radius: 20px;
     padding: 20px;
     max-width: 1000px;
+    box-shadow: var(--sombra);
 }
 
 .sobre-curiosidades h2 {
@@ -623,6 +626,7 @@ section.comecar {
     border-radius: 20px;
     padding: 20px;
     max-width: 1000px;
+    box-shadow: var(--sombra);
 }
 
 .comecar h2 {
@@ -644,6 +648,7 @@ section.conteudos-criados {
     border-radius: 20px;
     padding: 20px;
     max-width: 1000px;
+    box-shadow: var(--sombra);
 }
 
 .conteudos-criados h2 {
@@ -661,6 +666,7 @@ section.aprendizado {
     border-radius: 20px;
     padding: 20px;
     max-width: 1000px;
+    box-shadow: var(--sombra);
 }
 
 .aprendizado h2 {
