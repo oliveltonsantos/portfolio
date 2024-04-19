@@ -96,7 +96,6 @@ img {
 
 .btn-geral:hover {
     text-decoration: none;
-    scale: 1.1;
     background-color: var(--cor-quartenaria);
     color: var(--cor-secundaria);
 }
@@ -509,7 +508,6 @@ section.projetos .flex {
     border: 1px solid var(--cor-quartenaria);
     color: var(--cor-secundaria);
     text-decoration: none;
-    scale: 1.1;
 }
 
 
@@ -570,7 +568,6 @@ section.contato .flex {
 }
 
 .redes:hover {
-    scale: 1.1;
     text-decoration: none;
     color: var(--cor-primaria);
     background: var(--cor-quartenaria);
