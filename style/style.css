@@ -271,13 +271,30 @@ nav a:hover {
     padding: 20px 79%;
 }
 
+.btn-background {
+    background-color: var(--cor-terciaria);
+    width: 36.5px;
+    height: 36.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--cor-borda);
+    border-radius: 50px;
+}
+
+.btn-background:hover {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-quartenaria);
+}
+
 .menu-mobile .btn-fechar i {
-    color: var(--cor-quartenaria);
+    border-radius: 50px;
     font-size: 2.2em;
+    color: var(--cor-secundaria);
 }
 
 .menu-mobile .btn-fechar i:hover {
-    color: #0d1117;
+    color: var(--cor-quartenaria);
 }
 
 .menu-mobile nav {
