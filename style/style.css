@@ -983,6 +983,10 @@ article ul li {
         padding: 0px 2%;
     }
 
+    .menu-mobile .btn-fechar {
+        padding: 20px 85%;
+    }
+
 
     /**********************************/
     /* QUEM SOU
@@ -1143,6 +1147,14 @@ article ul li {
 
 
 @media screen and (min-width: 768px) {
+
+    /**********************************/
+    /* HEADER
+    /**********************************/
+
+    .menu-mobile .btn-fechar {
+        padding: 20px 90%;
+    }
 
     /**********************************/
     /* TECNOLOGIAS
