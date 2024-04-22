@@ -268,7 +268,7 @@ nav a:hover {
 }
 
 .menu-mobile .btn-fechar {
-    padding: 20px 83%;
+    padding: 20px 80%;
 }
 
 .menu-mobile .btn-fechar .btn-container {
@@ -298,6 +298,8 @@ nav a:hover {
 }
 
 .menu-mobile nav {
+    font-size: 20px;
+    font-weight: 700;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -305,7 +307,7 @@ nav a:hover {
 
 .menu-mobile nav a {
     color: var(--cor-terciaria);
-    margin: 10px;
+    margin: 2px 10px;
     padding: 10px 8%;
     border-radius: 20px;
     background: none;
