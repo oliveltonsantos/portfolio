@@ -268,7 +268,7 @@ nav a:hover {
 }
 
 .menu-mobile .btn-fechar {
-    padding: 20px 79%;
+    padding: 20px 83%;
 }
 
 .btn-background {
@@ -981,10 +981,6 @@ article ul li {
     .btn-abrir-menu {
         display: block;
         padding: 0px 2%;
-    }
-
-    .menu-mobile .btn-fechar {
-        padding: 20px 85%;
     }
 
 
