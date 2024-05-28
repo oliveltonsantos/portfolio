@@ -490,7 +490,9 @@ section.projetos .flex {
     margin-top: auto;
 }
 
-.card-projeto img {
+.card-projeto iframe {
+    width: 350px;
+    height: 200px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -1066,6 +1068,9 @@ article ul li {
         width: auto;
     }
 
+    .card-projeto iframe {
+        width: auto;
+    }
 
     /**********************************/
     /* CONTATO
