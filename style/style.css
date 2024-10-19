@@ -432,7 +432,7 @@ section.projetos {
 section.projetos .flex {
     flex-wrap: wrap;
     row-gap: 20px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 30px;
 }
 
@@ -490,9 +490,7 @@ section.projetos .flex {
     margin-top: auto;
 }
 
-.card-projeto iframe {
-    width: 350px;
-    height: 200px;
+.card-projeto img {
     border-radius: 20px 20px 0px 0px;
 }
 
