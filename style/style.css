@@ -179,7 +179,7 @@ header .interface {
     justify-content: space-between;
     padding: 15px 10px;
     border: 1px solid var(--cor-borda);
-    border-radius: 20px;
+    border-radius: 30px;
     background: var(--cor-secundaria);
     width: 100%;
     margin-top: 10px;
