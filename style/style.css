@@ -375,9 +375,8 @@ section.quem-sou .flex {
     gap: 20px;
 }
 
-.img-quem-sou img {
-    border-radius: 50%;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+.img-macintosh img {
+    width: 450px;
 }
 
 
@@ -638,6 +637,15 @@ section.sobre-curiosidades {
     padding: 20px;
     max-width: 1000px;
     box-shadow: var(--sombra);
+}
+
+.img-quem-sou img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--cor-borda);
 }
 
 .sobre-curiosidades h2 {
@@ -1019,7 +1027,7 @@ article ul li {
         gap: 10px;
     }
 
-    .img-quem-sou {
+    .img-macintosh {
         width: 100%;
         max-width: 200px;
         height: auto;
@@ -1208,9 +1216,8 @@ article ul li {
         gap: 10px;
     }
 
-    .img-quem-sou {
-        width: 100%;
-        max-width: 200px;
+    .img-macintosh {
+        width: 50%;
         height: auto;
         display: block;
         margin-top: 10px;
