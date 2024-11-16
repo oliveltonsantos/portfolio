@@ -16,3 +16,14 @@ overlay.addEventListener('click', () => {
     menu.classList.remove('abrir-menu')
 })
 
+
+/* Perguntas frequentes */
+
+const accordions = document.querySelectorAll(".accordion");
+
+accordions.forEach(accordion => {
+    accordion.addEventListener('click', () => {
+        const body = accordion.querySelector('.accordion-body');
+        body.classList.toggle('active')
+    })
+})

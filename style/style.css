@@ -349,7 +349,7 @@ section.quem-sou .flex {
 }
 
 .texto-apresentacao {
-    width: 650px;
+    width: 600px;
 }
 
 .texto-quem-sou h1 {
@@ -367,6 +367,7 @@ section.quem-sou .flex {
 
 .texto-quem-sou h2 {
     margin-bottom: 20px;
+    font-size: 2em;
 }
 
 .btn-quem-sou {
@@ -376,7 +377,7 @@ section.quem-sou .flex {
 }
 
 .img-macintosh img {
-    width: 450px;
+    width: 1080px;
 }
 
 
@@ -626,7 +627,7 @@ footer a {
 /**********************************/
 
 section.sobre-curiosidades {
-    padding: 110px 5% 30px 5%;
+    padding: 110px 5% 10px 5%;
 }
 
 .sobre-curiosidades .interface {
@@ -654,7 +655,7 @@ section.sobre-curiosidades {
 }
 
 section.comecar {
-    padding: 30px 5%;
+    padding: 20px 5%;
 }
 
 .comecar .interface {
@@ -666,17 +667,13 @@ section.comecar {
     box-shadow: var(--sombra);
 }
 
-.comecar h2 {
-    padding-bottom: 20px;
-    text-align: center;
-}
-
 .comecar p {
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 section.conteudos-criados {
-    padding: 30px 5%;
+    padding: 20px 5%;
 }
 
 .conteudos-criados .interface {
@@ -688,13 +685,8 @@ section.conteudos-criados {
     box-shadow: var(--sombra);
 }
 
-.conteudos-criados h2 {
-    padding-bottom: 20px;
-    text-align: center;
-}
-
 section.aprendizado {
-    padding: 30px 5%;
+    padding: 20px 5%;
 }
 
 .aprendizado .interface {
@@ -706,9 +698,52 @@ section.aprendizado {
     box-shadow: var(--sombra);
 }
 
-.aprendizado h2 {
-    padding-bottom: 20px;
-    text-align: center;
+
+/**********************************/
+/* SOBRE - PERGUNTAS FREQUENTES
+/**********************************/
+
+.accordion {
+    cursor: pointer;
+}
+
+.accordion-header {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.accordion-header h2 {
+    display: block;
+    font-size: 1.8em;
+    margin: auto;
+}
+
+.accordion-body {
+    opacity: 0;
+    height: 0;
+    transition: opacity .3s;
+    overflow: hidden;
+    background-color: var(--cor-secundaria);
+}
+
+.accordion-body.active {
+    opacity: 1;
+    height: 100%;
+    padding: 10px 0px;
+}
+
+.arrow {
+    transition: transform .2s linear;
+}
+
+.accordion:has(.active) .arrow {
+    transform: rotate(180deg);
+
 }
 
 
@@ -1027,14 +1062,6 @@ article ul li {
         gap: 10px;
     }
 
-    .img-macintosh {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-        display: block;
-        margin-top: 10px;
-    }
-
 
     /**********************************/
     /* TECNOLOGIAS
@@ -1216,11 +1243,8 @@ article ul li {
         gap: 10px;
     }
 
-    .img-macintosh {
-        width: 50%;
-        height: auto;
-        display: block;
-        margin-top: 10px;
+    .img-macintosh img {
+        width: 450px;
     }
 }
 
