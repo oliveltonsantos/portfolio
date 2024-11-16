@@ -739,10 +739,12 @@ section.aprendizado {
 
 .arrow {
     transition: transform .2s linear;
+    color: var(--cor-terciaria);
 }
 
 .accordion:has(.active) .arrow {
     transform: rotate(180deg);
+    color: var(--cor-quartenaria);
 
 }
 
@@ -762,6 +764,10 @@ section.aprendizado {
     margin-bottom: 15px;
     color: var(--cor-terciaria);
     line-height: 1.5em;
+}
+
+.lista-ordenada li:last-child {
+    margin-bottom: 0px;
 }
 
 .lista-ordenada ul i {
