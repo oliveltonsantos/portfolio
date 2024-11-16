@@ -737,15 +737,14 @@ section.aprendizado {
     padding: 10px 0px;
 }
 
-.arrow {
-    transition: transform .2s linear;
-    color: var(--cor-terciaria);
-}
-
 .accordion:has(.active) .arrow {
     transform: rotate(180deg);
     color: var(--cor-quartenaria);
+}
 
+.arrow {
+    transition: transform .2s linear;
+    color: var(--cor-terciaria);
 }
 
 
@@ -1110,6 +1109,7 @@ article ul li {
     .card-projeto iframe {
         width: auto;
     }
+
 
     /**********************************/
     /* CONTATO
