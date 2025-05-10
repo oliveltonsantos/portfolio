@@ -640,18 +640,9 @@ section.sobre-curiosidades {
     box-shadow: var(--sombra);
 }
 
-.img-quem-sou img {
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    border: 1px solid var(--cor-borda);
-}
-
-.sobre-curiosidades h2 {
-    padding-bottom: 20px;
-    text-align: center;
+.sobre-curiosidades p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 section.comecar {
