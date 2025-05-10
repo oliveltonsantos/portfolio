@@ -16,14 +16,21 @@ overlay.addEventListener('click', () => {
     menu.classList.remove('abrir-menu')
 })
 
-
 /* Perguntas frequentes */
 
 const accordions = document.querySelectorAll(".accordion");
 
 accordions.forEach(accordion => {
-    accordion.addEventListener('click', () => {
+    accordion.querySelector('.accordion-header').addEventListener('click', () => {
+        // Fecha todos os outros accordions
+        accordions.forEach(otherAccordion => {
+            if (otherAccordion !== accordion) {
+                otherAccordion.querySelector('.accordion-body').classList.remove('active');
+            }
+        });
+
+        // Alterna o atual
         const body = accordion.querySelector('.accordion-body');
-        body.classList.toggle('active')
-    })
-})
+        body.classList.toggle('active');
+    });
+});
